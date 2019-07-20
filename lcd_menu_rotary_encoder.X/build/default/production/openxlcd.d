@@ -1,0 +1,1 @@
+ build/default/production/openxlcd.d  build/default/production/openxlcd.p1:  openxlcd.c ../../common/include/plib/htc.h ../../common/include/plib/delays.h ../../common/include/plib/p18cxxx.h xlcd.h

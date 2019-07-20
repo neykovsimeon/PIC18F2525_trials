@@ -1,0 +1,1 @@
+ build/default/production/_ext/1853830924/busyxlcd.d  build/default/production/_ext/1853830924/busyxlcd.p1:  ../../common/sources/plib/XLCD/busyxlcd.c ../../common/include/plib/htc.h ../../common/include/plib/p18cxxx.h ../../common/include/plib/xlcd.h

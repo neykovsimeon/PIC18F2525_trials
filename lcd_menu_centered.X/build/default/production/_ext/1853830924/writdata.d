@@ -1,0 +1,1 @@
+ build/default/production/_ext/1853830924/writdata.d  build/default/production/_ext/1853830924/writdata.p1:  ../../common/sources/plib/XLCD/writdata.c ../../common/include/plib/htc.h ../../common/include/plib/p18cxxx.h ../../common/include/plib/xlcd.h

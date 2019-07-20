@@ -1,0 +1,1 @@
+ build/default/production/lcd_custom_char.d  build/default/production/lcd_custom_char.p1:  lcd_custom_char.c lcd_menu.h lcd_custom_char.h xlcd.h

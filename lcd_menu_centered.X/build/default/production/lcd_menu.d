@@ -1,0 +1,1 @@
+ build/default/production/lcd_menu.d  build/default/production/lcd_menu.p1:  lcd_menu.c ../../common/include/plib/htc.h lcd_menu.h ../../common/include/plib/delays.h ../../common/include/plib/p18cxxx.h ../../common/include/plib/xlcd.h

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="dist/default/production\lcd_mcu_menu.X.production.hex">
+    <memory name="program">
+      <units>bytes</units>
+      <length>49152</length>
+      <used>2724</used>
+      <free>46428</free>
+    </memory>
+    <memory name="data">
+      <units>bytes</units>
+      <length>3968</length>
+      <used>34</used>
+      <free>3934</free>
+    </memory>
+  </executable>
+</project>

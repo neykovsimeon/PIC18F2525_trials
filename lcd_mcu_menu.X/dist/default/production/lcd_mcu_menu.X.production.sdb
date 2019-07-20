@@ -1,0 +1,350 @@
+[p LITE_MODE AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F2525 ]
+[d frameptr 4065 ]
+"11 D:\Projects\pic18f2525\LCD_trials\lcd_mcu_menu.X\busyxlcd.c
+[v _BusyXLCD BusyXLCD `(uc  1 e 1 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"20 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\pic18\d10ktcyx.c
+[v _Delay10KTCYx Delay10KTCYx `(v  1 e 1 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\pic18\d1ktcyx.c
+[v _Delay1KTCYx Delay1KTCYx `(v  1 e 1 0 ]
+"63 D:\Projects\pic18f2525\LCD_trials\lcd_mcu_menu.X\lcd_menu.c
+[v _clear_display clear_display `(v  1 e 1 0 ]
+"68
+[v _DelayFor18TCY DelayFor18TCY `(v  1 e 1 0 ]
+"76
+[v _DelayPORXLCD DelayPORXLCD `(v  1 e 1 0 ]
+"86
+[v _Delay1Sec Delay1Sec `(v  1 e 1 0 ]
+"98
+[v _gotoxy gotoxy `(v  1 e 1 0 ]
+"129
+[v _LCDWriteStringROM LCDWriteStringROM `(v  1 e 1 0 ]
+"178
+[v _show_menu show_menu `(v  1 e 1 0 ]
+"37 D:\Projects\pic18f2525\LCD_trials\lcd_mcu_menu.X\lcd_trials_4bits.c
+[v _start start `(v  1 e 1 0 ]
+"48
+[v _init_GPIO_DIR init_GPIO_DIR `(v  1 e 1 0 ]
+"64
+[v _init_XLCD init_XLCD `(v  1 e 1 0 ]
+"80
+[v _main main `(v  1 e 1 0 ]
+"19 D:\Projects\pic18f2525\LCD_trials\lcd_mcu_menu.X\openxlcd.c
+[v _OpenXLCD OpenXLCD `(v  1 e 1 0 ]
+"16 D:\Projects\pic18f2525\LCD_trials\lcd_mcu_menu.X\putrxlcd.c
+[v _putrsXLCD putrsXLCD `(v  1 e 1 0 ]
+"13 D:\Projects\pic18f2525\LCD_trials\lcd_mcu_menu.X\setddram.c
+[v _SetDDRamAddr SetDDRamAddr `(v  1 e 1 0 ]
+"13 D:\Projects\pic18f2525\LCD_trials\lcd_mcu_menu.X\wcmdxlcd.c
+[v _WriteCmdXLCD WriteCmdXLCD `(v  1 e 1 0 ]
+"16 D:\Projects\pic18f2525\LCD_trials\lcd_mcu_menu.X\writdata.c
+[v _WriteDataXLCD WriteDataXLCD `(v  1 e 1 0 ]
+"187 C:\Program Files (x86)\Microchip\xc8\v1.42\include\pic18f2525.h
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+[s S21 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"859
+[s S30 . 1 `uc 1 LC0 1 0 :1:0 
+`uc 1 LC1 1 0 :1:1 
+`uc 1 LC2 1 0 :1:2 
+`uc 1 LC3 1 0 :1:3 
+`uc 1 LC4 1 0 :1:4 
+`uc 1 LC5 1 0 :1:5 
+`uc 1 LC6 1 0 :1:6 
+`uc 1 LC7 1 0 :1:7 
+]
+[u S39 . 1 `S21 1 . 1 0 `S30 1 . 1 0 ]
+[v _LATCbits LATCbits `VES39  1 e 1 @3979 ]
+[s S96 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+`uc 1 TRISA7 1 0 :1:7 
+]
+"976
+[s S105 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+[u S114 . 1 `S96 1 . 1 0 `S105 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES114  1 e 1 @3986 ]
+"1166
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+[s S212 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1420
+[s S221 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[u S230 . 1 `S212 1 . 1 0 `S221 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES230  1 e 1 @3988 ]
+"2822
+[v _CMCON CMCON `VEuc  1 e 1 @4020 ]
+"3604
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"4966
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+"6474
+[v _RA5 RA5 `VEb  1 e 0 @31749 ]
+"6476
+[v _RA6 RA6 `VEb  1 e 0 @31750 ]
+"6548
+[v _RE3 RE3 `VEb  1 e 0 @31779 ]
+"13 D:\Projects\pic18f2525\LCD_trials\lcd_mcu_menu.X\lcd_menu.c
+[v _selected selected `uc  1 e 1 0 ]
+"15
+[v _menu_000 menu_000 `C[17]uc  1 e 17 0 ]
+"16
+[v _menu_001 menu_001 `C[9]uc  1 e 9 0 ]
+"17
+[v _menu_002 menu_002 `C[9]uc  1 e 9 0 ]
+"18
+[v _menu_003 menu_003 `C[9]uc  1 e 9 0 ]
+"19
+[v _menu_004 menu_004 `C[9]uc  1 e 9 0 ]
+"20
+[v _menu_005 menu_005 `C[9]uc  1 e 9 0 ]
+"21
+[v _menu_006 menu_006 `C[9]uc  1 e 9 0 ]
+"22
+[v _menu_007 menu_007 `C[9]uc  1 e 9 0 ]
+"23
+[v _menu_008 menu_008 `C[9]uc  1 e 9 0 ]
+"24
+[v _menu_009 menu_009 `C[7]uc  1 e 7 0 ]
+"26
+[v _menu_010 menu_010 `C[12]uc  1 e 12 0 ]
+"27
+[v _menu_011 menu_011 `C[12]uc  1 e 12 0 ]
+"28
+[v _menu_012 menu_012 `C[12]uc  1 e 12 0 ]
+"29
+[v _menu_013 menu_013 `C[12]uc  1 e 12 0 ]
+"30
+[v _menu_014 menu_014 `C[12]uc  1 e 12 0 ]
+"31
+[v _menu_015 menu_015 `C[12]uc  1 e 12 0 ]
+"32
+[v _menu_016 menu_016 `C[8]uc  1 e 8 0 ]
+[s S161 MenuStructure 8 `*.25Cuc 1 text 2 0 `uc 1 num_menupoints 1 2 `uc 1 up 1 3 `uc 1 down 1 4 `uc 1 enter 1 5 `*.37(v 1 fp 2 6 ]
+"35
+[v _my_menu my_menu `C[17]S161  1 e 136 0 ]
+"19 D:\Projects\pic18f2525\LCD_trials\lcd_mcu_menu.X\lcd_trials_4bits.c
+[v _button_delay_counter button_delay_counter `ui  1 e 2 0 ]
+"20
+[v _return_default_display_counter return_default_display_counter `ui  1 e 2 0 ]
+"21
+[v _button_enable button_enable `uc  1 e 1 0 ]
+"22
+[v _button_delay_counter_enable button_delay_counter_enable `uc  1 e 1 0 ]
+"23
+[v _return_default_display_counter_enable return_default_display_counter_enable `uc  1 e 1 0 ]
+"80
+[v _main main `(v  1 e 1 0 ]
+{
+"147
+} 0
+"37
+[v _start start `(v  1 e 1 0 ]
+{
+"46
+} 0
+"16 D:\Projects\pic18f2525\LCD_trials\lcd_mcu_menu.X\putrxlcd.c
+[v _putrsXLCD putrsXLCD `(v  1 e 1 0 ]
+{
+[v putrsXLCD@buffer buffer `*.25Cuc  1 p 2 1 ]
+"25
+} 0
+"63 D:\Projects\pic18f2525\LCD_trials\lcd_mcu_menu.X\lcd_menu.c
+[v _clear_display clear_display `(v  1 e 1 0 ]
+{
+"66
+} 0
+"86
+[v _Delay1Sec Delay1Sec `(v  1 e 1 0 ]
+{
+"87
+[v Delay1Sec@cntDelay cntDelay `i  1 a 2 1 ]
+"88
+} 0
+"178
+[v _show_menu show_menu `(v  1 e 1 0 ]
+{
+"180
+[v show_menu@from from `uc  1 a 1 24 ]
+"181
+[v show_menu@till till `uc  1 a 1 23 ]
+"179
+[v show_menu@line_cnt line_cnt `uc  1 a 1 22 ]
+"182
+[v show_menu@temp temp `uc  1 a 1 21 ]
+"251
+} 0
+"98
+[v _gotoxy gotoxy `(v  1 e 1 0 ]
+{
+[v gotoxy@x_pos x_pos `uc  1 a 1 wreg ]
+"99
+[v gotoxy@ddramaddress ddramaddress `uc  1 a 1 5 ]
+"98
+[v gotoxy@x_pos x_pos `uc  1 a 1 wreg ]
+[v gotoxy@y_pos y_pos `uc  1 p 1 4 ]
+[v gotoxy@x_pos x_pos `uc  1 a 1 6 ]
+"127
+} 0
+"129
+[v _LCDWriteStringROM LCDWriteStringROM `(v  1 e 1 0 ]
+{
+[v LCDWriteStringROM@x x `uc  1 a 1 wreg ]
+"131
+[v LCDWriteStringROM@lcd_offset lcd_offset `uc  1 a 1 12 ]
+"130
+[v LCDWriteStringROM@lcd_i lcd_i `uc  1 a 1 11 ]
+"129
+[v LCDWriteStringROM@x x `uc  1 a 1 wreg ]
+[v LCDWriteStringROM@y y `uc  1 p 1 6 ]
+[v LCDWriteStringROM@lcd_menu_items lcd_menu_items `*.25Cuc  1 p 2 7 ]
+[v LCDWriteStringROM@add_line add_line `uc  1 p 1 9 ]
+[v LCDWriteStringROM@add_char add_char `uc  1 p 1 10 ]
+"131
+[v LCDWriteStringROM@x x `uc  1 a 1 13 ]
+"176
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+{
+"6
+[v strlen@cp cp `*.25Cuc  1 a 2 4 ]
+"4
+[v strlen@s s `*.25Cuc  1 p 2 0 ]
+"13
+} 0
+"16 D:\Projects\pic18f2525\LCD_trials\lcd_mcu_menu.X\writdata.c
+[v _WriteDataXLCD WriteDataXLCD `(v  1 e 1 0 ]
+{
+[v WriteDataXLCD@data data `uc  1 a 1 wreg ]
+[v WriteDataXLCD@data data `uc  1 a 1 wreg ]
+"35
+[v WriteDataXLCD@data data `uc  1 a 1 0 ]
+"63
+} 0
+"64 D:\Projects\pic18f2525\LCD_trials\lcd_mcu_menu.X\lcd_trials_4bits.c
+[v _init_XLCD init_XLCD `(v  1 e 1 0 ]
+{
+"78
+} 0
+"19 D:\Projects\pic18f2525\LCD_trials\lcd_mcu_menu.X\openxlcd.c
+[v _OpenXLCD OpenXLCD `(v  1 e 1 0 ]
+{
+[v OpenXLCD@lcdtype lcdtype `uc  1 a 1 wreg ]
+[v OpenXLCD@lcdtype lcdtype `uc  1 a 1 wreg ]
+"31
+[v OpenXLCD@lcdtype lcdtype `uc  1 a 1 4 ]
+"80
+} 0
+"13 D:\Projects\pic18f2525\LCD_trials\lcd_mcu_menu.X\wcmdxlcd.c
+[v _WriteCmdXLCD WriteCmdXLCD `(v  1 e 1 0 ]
+{
+[v WriteCmdXLCD@cmd cmd `uc  1 a 1 wreg ]
+[v WriteCmdXLCD@cmd cmd `uc  1 a 1 wreg ]
+"32
+[v WriteCmdXLCD@cmd cmd `uc  1 a 1 0 ]
+"60
+} 0
+"13 D:\Projects\pic18f2525\LCD_trials\lcd_mcu_menu.X\setddram.c
+[v _SetDDRamAddr SetDDRamAddr `(v  1 e 1 0 ]
+{
+[v SetDDRamAddr@DDaddr DDaddr `uc  1 a 1 wreg ]
+[v SetDDRamAddr@DDaddr DDaddr `uc  1 a 1 wreg ]
+"32
+[v SetDDRamAddr@DDaddr DDaddr `uc  1 a 1 3 ]
+"60
+} 0
+"76 D:\Projects\pic18f2525\LCD_trials\lcd_mcu_menu.X\lcd_menu.c
+[v _DelayPORXLCD DelayPORXLCD `(v  1 e 1 0 ]
+{
+"79
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\pic18\d1ktcyx.c
+[v _Delay1KTCYx Delay1KTCYx `(v  1 e 1 0 ]
+{
+[v Delay1KTCYx@unit unit `uc  1 a 1 wreg ]
+[v Delay1KTCYx@unit unit `uc  1 a 1 wreg ]
+[v Delay1KTCYx@unit unit `uc  1 a 1 0 ]
+"13
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\pic18\d10ktcyx.c
+[v _Delay10KTCYx Delay10KTCYx `(v  1 e 1 0 ]
+{
+[v Delay10KTCYx@unit unit `uc  1 a 1 wreg ]
+[v Delay10KTCYx@unit unit `uc  1 a 1 wreg ]
+[v Delay10KTCYx@unit unit `uc  1 a 1 1 ]
+"13
+} 0
+"11 D:\Projects\pic18f2525\LCD_trials\lcd_mcu_menu.X\busyxlcd.c
+[v _BusyXLCD BusyXLCD `(uc  1 e 1 0 ]
+{
+"57
+} 0
+"68 D:\Projects\pic18f2525\LCD_trials\lcd_mcu_menu.X\lcd_menu.c
+[v _DelayFor18TCY DelayFor18TCY `(v  1 e 1 0 ]
+{
+"74
+} 0
+"48 D:\Projects\pic18f2525\LCD_trials\lcd_mcu_menu.X\lcd_trials_4bits.c
+[v _init_GPIO_DIR init_GPIO_DIR `(v  1 e 1 0 ]
+{
+"61
+} 0

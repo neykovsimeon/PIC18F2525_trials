@@ -1,0 +1,355 @@
+\hypertarget{xlcd_8h}{}\section{D\+:/\+Projects/pic18f2525/\+L\+C\+D\+\_\+trials/lcd\+\_\+mcu\+\_\+menu.X/xlcd.h File Reference}
+\label{xlcd_8h}\index{D:/Projects/pic18f2525/LCD\_trials/lcd\_mcu\_menu.X/xlcd.h@{D:/Projects/pic18f2525/LCD\_trials/lcd\_mcu\_menu.X/xlcd.h}}
+{\ttfamily \#include \char`\"{}p18cxxx.\+h\char`\"{}}\newline
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{xlcd_8h_ab0c169c959c5be67954c866776329563}{D\+A\+T\+A\+\_\+\+P\+O\+RT}}~P\+O\+R\+TB
+\begin{DoxyCompactList}\small\item\em P\+I\+C18 X\+L\+CD peripheral routines. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{xlcd_8h_ac1184a4348ebb730401000beec6153d0}{T\+R\+I\+S\+\_\+\+D\+A\+T\+A\+\_\+\+P\+O\+RT}}~T\+R\+I\+SB
+\item 
+\#define \mbox{\hyperlink{xlcd_8h_af1976219619b43405b2ebb8a53feb4a0}{R\+W\+\_\+\+P\+IN}}~L\+A\+T\+Cbits.\+L\+A\+T\+C2
+\item 
+\#define \mbox{\hyperlink{xlcd_8h_ab578f814b401dce6b7a329e0e1277d5a}{T\+R\+I\+S\+\_\+\+RW}}~T\+R\+I\+S\+Cbits.\+R\+C2
+\item 
+\#define \mbox{\hyperlink{xlcd_8h_ab36f7bcb538b332ae44f0b2b2375b2de}{R\+S\+\_\+\+P\+IN}}~L\+A\+T\+Cbits.\+L\+A\+T\+C0
+\item 
+\#define \mbox{\hyperlink{xlcd_8h_a5f2335522a654eed4c0c55f188bd9a97}{T\+R\+I\+S\+\_\+\+RS}}~T\+R\+I\+S\+Cbits.\+R\+C0
+\item 
+\#define \mbox{\hyperlink{xlcd_8h_aadf79f08aa7bd6622d96ea86e0b5cbfd}{E\+\_\+\+P\+IN}}~L\+A\+T\+Cbits.\+L\+A\+T\+C1
+\item 
+\#define \mbox{\hyperlink{xlcd_8h_a1ef9e90842eba3efc4939c320e70e19e}{T\+R\+I\+S\+\_\+E}}~T\+R\+I\+S\+Cbits.\+R\+C1
+\item 
+\#define \mbox{\hyperlink{xlcd_8h_ae4e57f92590835faeb12b6d8bb1de54a}{D\+ON}}~0b00001111
+\item 
+\#define \mbox{\hyperlink{xlcd_8h_a435b5f89aa442dc492e806f754a205db}{D\+O\+FF}}~0b00001011
+\item 
+\#define \mbox{\hyperlink{xlcd_8h_abf764a93ccecfc79fed90d889d820508}{C\+U\+R\+S\+O\+R\+\_\+\+ON}}~0b00001111
+\item 
+\#define \mbox{\hyperlink{xlcd_8h_ab8896b2f528ef9b5bc78880530ee5ca0}{C\+U\+R\+S\+O\+R\+\_\+\+O\+FF}}~0b00001101
+\item 
+\#define \mbox{\hyperlink{xlcd_8h_a7d0f13a7d34f8723649091ecd530050a}{B\+L\+I\+N\+K\+\_\+\+ON}}~0b00001111
+\item 
+\#define \mbox{\hyperlink{xlcd_8h_aa35c32058bd9786255bc8cf9455a454b}{B\+L\+I\+N\+K\+\_\+\+O\+FF}}~0b00001110
+\item 
+\#define \mbox{\hyperlink{xlcd_8h_a81fa633c1f0026f8d53c6dd7375dffb4}{S\+H\+I\+F\+T\+\_\+\+C\+U\+R\+\_\+\+L\+E\+FT}}~0b00000100
+\item 
+\#define \mbox{\hyperlink{xlcd_8h_a2c2875f6a5266f5148e54ef7ebf4b9ba}{S\+H\+I\+F\+T\+\_\+\+C\+U\+R\+\_\+\+R\+I\+G\+HT}}~0b00000101
+\item 
+\#define \mbox{\hyperlink{xlcd_8h_a208cc56a99d35444c6c874d1f7f788c8}{S\+H\+I\+F\+T\+\_\+\+D\+I\+S\+P\+\_\+\+L\+E\+FT}}~0b00000110
+\item 
+\#define \mbox{\hyperlink{xlcd_8h_a32f9ac76d6dc61f16372861b671ac725}{S\+H\+I\+F\+T\+\_\+\+D\+I\+S\+P\+\_\+\+R\+I\+G\+HT}}~0b00000111
+\item 
+\#define \mbox{\hyperlink{xlcd_8h_ad1e0f6d7692b2a25fbf663a49d982b37}{F\+O\+U\+R\+\_\+\+B\+IT}}~0b00101100
+\item 
+\#define \mbox{\hyperlink{xlcd_8h_a31934ce51c0041a25afde074b17c3ac0}{E\+I\+G\+H\+T\+\_\+\+B\+IT}}~0b00111100
+\item 
+\#define \mbox{\hyperlink{xlcd_8h_aafb751b159bff6bb6601e7dd95bbf691}{L\+I\+N\+E\+\_\+5\+X7}}~0b00110000
+\item 
+\#define \mbox{\hyperlink{xlcd_8h_aabd00f9d7564e505c8e16fbbfacba0f2}{L\+I\+N\+E\+\_\+5\+X10}}~0b00110100
+\item 
+\#define \mbox{\hyperlink{xlcd_8h_a6163c41bc29bfaf1ec055b09196b9fe7}{L\+I\+N\+E\+S\+\_\+5\+X7}}~0b00111000
+\item 
+\#define \mbox{\hyperlink{xlcd_8h_ae7f1b0496d10abad7374d9a702844c06}{P\+A\+R\+A\+M\+\_\+\+S\+C\+L\+A\+SS}}~auto
+\item 
+\#define \mbox{\hyperlink{xlcd_8h_a43f8f4495621e421192c8390f8e120c9}{M\+E\+M\+\_\+\+M\+O\+D\+EL}}~far  /$\ast$ Change this to near for small memory model $\ast$/
+\item 
+\#define \mbox{\hyperlink{xlcd_8h_aa7c73a66527b808ab4a00ebac9aa77b2}{putc\+X\+L\+CD}}~\mbox{\hyperlink{xlcd_8h_a40ad2fb97c45f42dbaa6161fa1a303ca}{Write\+Data\+X\+L\+CD}}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{xlcd_8h_a852e069fe5edfeb1f27ff7a5b4b1a896}{Open\+X\+L\+CD}} (\mbox{\hyperlink{xlcd_8h_ae7f1b0496d10abad7374d9a702844c06}{P\+A\+R\+A\+M\+\_\+\+S\+C\+L\+A\+SS}} unsigned char)
+\item 
+void \mbox{\hyperlink{xlcd_8h_ac838d8593d7a725b2f2ccfdb41cf121c}{Set\+C\+G\+Ram\+Addr}} (\mbox{\hyperlink{xlcd_8h_ae7f1b0496d10abad7374d9a702844c06}{P\+A\+R\+A\+M\+\_\+\+S\+C\+L\+A\+SS}} unsigned char)
+\item 
+void \mbox{\hyperlink{xlcd_8h_a757a3f535f1c29015cb530a07f5ee781}{Set\+D\+D\+Ram\+Addr}} (\mbox{\hyperlink{xlcd_8h_ae7f1b0496d10abad7374d9a702844c06}{P\+A\+R\+A\+M\+\_\+\+S\+C\+L\+A\+SS}} unsigned char)
+\item 
+unsigned char \mbox{\hyperlink{xlcd_8h_a91696a9143372499e8d0c62ee6d120a3}{Busy\+X\+L\+CD}} (void)
+\item 
+unsigned char \mbox{\hyperlink{xlcd_8h_a38d4e19db825ec97f34cb0e7b1350565}{Read\+Addr\+X\+L\+CD}} (void)
+\item 
+char \mbox{\hyperlink{xlcd_8h_af1cd7eb4d35da7aa3a57bfa7796703a7}{Read\+Data\+X\+L\+CD}} (void)
+\item 
+void \mbox{\hyperlink{xlcd_8h_aaa9045cb60d057729b136b292dac269e}{Write\+Cmd\+X\+L\+CD}} (\mbox{\hyperlink{xlcd_8h_ae7f1b0496d10abad7374d9a702844c06}{P\+A\+R\+A\+M\+\_\+\+S\+C\+L\+A\+SS}} unsigned char)
+\item 
+void \mbox{\hyperlink{xlcd_8h_a40ad2fb97c45f42dbaa6161fa1a303ca}{Write\+Data\+X\+L\+CD}} (\mbox{\hyperlink{xlcd_8h_ae7f1b0496d10abad7374d9a702844c06}{P\+A\+R\+A\+M\+\_\+\+S\+C\+L\+A\+SS}} char)
+\item 
+void \mbox{\hyperlink{xlcd_8h_ae54bf113caa1fab3efaafd95d8088fc5}{puts\+X\+L\+CD}} (\mbox{\hyperlink{xlcd_8h_ae7f1b0496d10abad7374d9a702844c06}{P\+A\+R\+A\+M\+\_\+\+S\+C\+L\+A\+SS}} char $\ast$)
+\item 
+void \mbox{\hyperlink{xlcd_8h_a3490ad6d1620790a568dc0fef4bc5cbe}{putrs\+X\+L\+CD}} (const char $\ast$)
+\item 
+void \mbox{\hyperlink{xlcd_8h_a54376ee8b5eb84384dbad143dff37882}{Delay\+For18\+T\+CY}} (void)
+\item 
+void \mbox{\hyperlink{xlcd_8h_a7cb975b2525b10b6c8e50f67bb2e5e0d}{Delay\+P\+O\+R\+X\+L\+CD}} (void)
+\item 
+void \mbox{\hyperlink{xlcd_8h_a5f4c6c2ccf12e67ea08cb6c49df027e1}{Delay\+X\+L\+CD}} (void)
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\mbox{\Hypertarget{xlcd_8h_aa35c32058bd9786255bc8cf9455a454b}\label{xlcd_8h_aa35c32058bd9786255bc8cf9455a454b}} 
+\index{xlcd.h@{xlcd.h}!BLINK\_OFF@{BLINK\_OFF}}
+\index{BLINK\_OFF@{BLINK\_OFF}!xlcd.h@{xlcd.h}}
+\subsubsection{\texorpdfstring{BLINK\_OFF}{BLINK\_OFF}}
+{\footnotesize\ttfamily \#define B\+L\+I\+N\+K\+\_\+\+O\+FF~0b00001110}
+
+Cursor No Blink \mbox{\Hypertarget{xlcd_8h_a7d0f13a7d34f8723649091ecd530050a}\label{xlcd_8h_a7d0f13a7d34f8723649091ecd530050a}} 
+\index{xlcd.h@{xlcd.h}!BLINK\_ON@{BLINK\_ON}}
+\index{BLINK\_ON@{BLINK\_ON}!xlcd.h@{xlcd.h}}
+\subsubsection{\texorpdfstring{BLINK\_ON}{BLINK\_ON}}
+{\footnotesize\ttfamily \#define B\+L\+I\+N\+K\+\_\+\+ON~0b00001111}
+
+Cursor Blink \mbox{\Hypertarget{xlcd_8h_ab8896b2f528ef9b5bc78880530ee5ca0}\label{xlcd_8h_ab8896b2f528ef9b5bc78880530ee5ca0}} 
+\index{xlcd.h@{xlcd.h}!CURSOR\_OFF@{CURSOR\_OFF}}
+\index{CURSOR\_OFF@{CURSOR\_OFF}!xlcd.h@{xlcd.h}}
+\subsubsection{\texorpdfstring{CURSOR\_OFF}{CURSOR\_OFF}}
+{\footnotesize\ttfamily \#define C\+U\+R\+S\+O\+R\+\_\+\+O\+FF~0b00001101}
+
+Cursor off \mbox{\Hypertarget{xlcd_8h_abf764a93ccecfc79fed90d889d820508}\label{xlcd_8h_abf764a93ccecfc79fed90d889d820508}} 
+\index{xlcd.h@{xlcd.h}!CURSOR\_ON@{CURSOR\_ON}}
+\index{CURSOR\_ON@{CURSOR\_ON}!xlcd.h@{xlcd.h}}
+\subsubsection{\texorpdfstring{CURSOR\_ON}{CURSOR\_ON}}
+{\footnotesize\ttfamily \#define C\+U\+R\+S\+O\+R\+\_\+\+ON~0b00001111}
+
+Cursor on \mbox{\Hypertarget{xlcd_8h_ab0c169c959c5be67954c866776329563}\label{xlcd_8h_ab0c169c959c5be67954c866776329563}} 
+\index{xlcd.h@{xlcd.h}!DATA\_PORT@{DATA\_PORT}}
+\index{DATA\_PORT@{DATA\_PORT}!xlcd.h@{xlcd.h}}
+\subsubsection{\texorpdfstring{DATA\_PORT}{DATA\_PORT}}
+{\footnotesize\ttfamily \#define D\+A\+T\+A\+\_\+\+P\+O\+RT~P\+O\+R\+TB}
+
+
+
+P\+I\+C18 X\+L\+CD peripheral routines. 
+
+Notes\+:
+\begin{DoxyItemize}
+\item These libraries routines are written to support the Hitachi H\+D44780 L\+CD controller.
+\item The user must define the following items\+:
+\begin{DoxyItemize}
+\item The L\+CD interface type (4-\/ or 8-\/bits)
+\item If 4-\/bit mode
+\begin{DoxyItemize}
+\item whether using the upper or lower nibble
+\end{DoxyItemize}
+\item The data port
+\begin{DoxyItemize}
+\item The tris register for data port
+\item The control signal ports and pins
+\item The control signal port tris and pins
+\end{DoxyItemize}
+\item The user must provide three delay routines\+:
+\begin{DoxyItemize}
+\item \mbox{\hyperlink{xlcd_8h_a54376ee8b5eb84384dbad143dff37882}{Delay\+For18\+T\+C\+Y()}} provides a 18 Tcy delay
+\item \mbox{\hyperlink{xlcd_8h_a7cb975b2525b10b6c8e50f67bb2e5e0d}{Delay\+P\+O\+R\+X\+L\+C\+D()}} provides at least 15ms delay
+\item \mbox{\hyperlink{xlcd_8h_a5f4c6c2ccf12e67ea08cb6c49df027e1}{Delay\+X\+L\+C\+D()}} provides at least 5ms delay\+Interface type 8-\/bit or 4-\/bit For 8-\/bit operation uncomment the \#define B\+I\+T8\+When in 4-\/bit interface define if the data is in the upper or lower nibble of M\+CU\textquotesingle{}s data port. For lower nibble, comment the \#define U\+P\+P\+E\+R\+D\+A\+T\+A\+\_\+\+P\+O\+RT defines the port to which the L\+CD data lines are connected 
+\end{DoxyItemize}
+\end{DoxyItemize}
+\end{DoxyItemize}\mbox{\Hypertarget{xlcd_8h_a435b5f89aa442dc492e806f754a205db}\label{xlcd_8h_a435b5f89aa442dc492e806f754a205db}} 
+\index{xlcd.h@{xlcd.h}!DOFF@{DOFF}}
+\index{DOFF@{DOFF}!xlcd.h@{xlcd.h}}
+\subsubsection{\texorpdfstring{DOFF}{DOFF}}
+{\footnotesize\ttfamily \#define D\+O\+FF~0b00001011}
+
+Display off \mbox{\Hypertarget{xlcd_8h_ae4e57f92590835faeb12b6d8bb1de54a}\label{xlcd_8h_ae4e57f92590835faeb12b6d8bb1de54a}} 
+\index{xlcd.h@{xlcd.h}!DON@{DON}}
+\index{DON@{DON}!xlcd.h@{xlcd.h}}
+\subsubsection{\texorpdfstring{DON}{DON}}
+{\footnotesize\ttfamily \#define D\+ON~0b00001111}
+
+Display O\+N/\+O\+FF Control defines Display on \mbox{\Hypertarget{xlcd_8h_aadf79f08aa7bd6622d96ea86e0b5cbfd}\label{xlcd_8h_aadf79f08aa7bd6622d96ea86e0b5cbfd}} 
+\index{xlcd.h@{xlcd.h}!E\_PIN@{E\_PIN}}
+\index{E\_PIN@{E\_PIN}!xlcd.h@{xlcd.h}}
+\subsubsection{\texorpdfstring{E\_PIN}{E\_PIN}}
+{\footnotesize\ttfamily \#define E\+\_\+\+P\+IN~L\+A\+T\+Cbits.\+L\+A\+T\+C1}
+
+P\+O\+RT for D \mbox{\Hypertarget{xlcd_8h_a31934ce51c0041a25afde074b17c3ac0}\label{xlcd_8h_a31934ce51c0041a25afde074b17c3ac0}} 
+\index{xlcd.h@{xlcd.h}!EIGHT\_BIT@{EIGHT\_BIT}}
+\index{EIGHT\_BIT@{EIGHT\_BIT}!xlcd.h@{xlcd.h}}
+\subsubsection{\texorpdfstring{EIGHT\_BIT}{EIGHT\_BIT}}
+{\footnotesize\ttfamily \#define E\+I\+G\+H\+T\+\_\+\+B\+IT~0b00111100}
+
+8-\/bit Interface \mbox{\Hypertarget{xlcd_8h_ad1e0f6d7692b2a25fbf663a49d982b37}\label{xlcd_8h_ad1e0f6d7692b2a25fbf663a49d982b37}} 
+\index{xlcd.h@{xlcd.h}!FOUR\_BIT@{FOUR\_BIT}}
+\index{FOUR\_BIT@{FOUR\_BIT}!xlcd.h@{xlcd.h}}
+\subsubsection{\texorpdfstring{FOUR\_BIT}{FOUR\_BIT}}
+{\footnotesize\ttfamily \#define F\+O\+U\+R\+\_\+\+B\+IT~0b00101100}
+
+Function Set defines 4-\/bit Interface \mbox{\Hypertarget{xlcd_8h_aabd00f9d7564e505c8e16fbbfacba0f2}\label{xlcd_8h_aabd00f9d7564e505c8e16fbbfacba0f2}} 
+\index{xlcd.h@{xlcd.h}!LINE\_5X10@{LINE\_5X10}}
+\index{LINE\_5X10@{LINE\_5X10}!xlcd.h@{xlcd.h}}
+\subsubsection{\texorpdfstring{LINE\_5X10}{LINE\_5X10}}
+{\footnotesize\ttfamily \#define L\+I\+N\+E\+\_\+5\+X10~0b00110100}
+
+5x10 characters \mbox{\Hypertarget{xlcd_8h_aafb751b159bff6bb6601e7dd95bbf691}\label{xlcd_8h_aafb751b159bff6bb6601e7dd95bbf691}} 
+\index{xlcd.h@{xlcd.h}!LINE\_5X7@{LINE\_5X7}}
+\index{LINE\_5X7@{LINE\_5X7}!xlcd.h@{xlcd.h}}
+\subsubsection{\texorpdfstring{LINE\_5X7}{LINE\_5X7}}
+{\footnotesize\ttfamily \#define L\+I\+N\+E\+\_\+5\+X7~0b00110000}
+
+5x7 characters, single line \mbox{\Hypertarget{xlcd_8h_a6163c41bc29bfaf1ec055b09196b9fe7}\label{xlcd_8h_a6163c41bc29bfaf1ec055b09196b9fe7}} 
+\index{xlcd.h@{xlcd.h}!LINES\_5X7@{LINES\_5X7}}
+\index{LINES\_5X7@{LINES\_5X7}!xlcd.h@{xlcd.h}}
+\subsubsection{\texorpdfstring{LINES\_5X7}{LINES\_5X7}}
+{\footnotesize\ttfamily \#define L\+I\+N\+E\+S\+\_\+5\+X7~0b00111000}
+
+5x7 characters, multiple line \mbox{\Hypertarget{xlcd_8h_a43f8f4495621e421192c8390f8e120c9}\label{xlcd_8h_a43f8f4495621e421192c8390f8e120c9}} 
+\index{xlcd.h@{xlcd.h}!MEM\_MODEL@{MEM\_MODEL}}
+\index{MEM\_MODEL@{MEM\_MODEL}!xlcd.h@{xlcd.h}}
+\subsubsection{\texorpdfstring{MEM\_MODEL}{MEM\_MODEL}}
+{\footnotesize\ttfamily \#define M\+E\+M\+\_\+\+M\+O\+D\+EL~far  /$\ast$ Change this to near for small memory model $\ast$/}
+
+\mbox{\Hypertarget{xlcd_8h_ae7f1b0496d10abad7374d9a702844c06}\label{xlcd_8h_ae7f1b0496d10abad7374d9a702844c06}} 
+\index{xlcd.h@{xlcd.h}!PARAM\_SCLASS@{PARAM\_SCLASS}}
+\index{PARAM\_SCLASS@{PARAM\_SCLASS}!xlcd.h@{xlcd.h}}
+\subsubsection{\texorpdfstring{PARAM\_SCLASS}{PARAM\_SCLASS}}
+{\footnotesize\ttfamily \#define P\+A\+R\+A\+M\+\_\+\+S\+C\+L\+A\+SS~auto}
+
+\mbox{\Hypertarget{xlcd_8h_aa7c73a66527b808ab4a00ebac9aa77b2}\label{xlcd_8h_aa7c73a66527b808ab4a00ebac9aa77b2}} 
+\index{xlcd.h@{xlcd.h}!putcXLCD@{putcXLCD}}
+\index{putcXLCD@{putcXLCD}!xlcd.h@{xlcd.h}}
+\subsubsection{\texorpdfstring{putcXLCD}{putcXLCD}}
+{\footnotesize\ttfamily \#define putc\+X\+L\+CD~\mbox{\hyperlink{xlcd_8h_a40ad2fb97c45f42dbaa6161fa1a303ca}{Write\+Data\+X\+L\+CD}}}
+
+putc\+X\+L\+CD A putc is a write \mbox{\Hypertarget{xlcd_8h_ab36f7bcb538b332ae44f0b2b2375b2de}\label{xlcd_8h_ab36f7bcb538b332ae44f0b2b2375b2de}} 
+\index{xlcd.h@{xlcd.h}!RS\_PIN@{RS\_PIN}}
+\index{RS\_PIN@{RS\_PIN}!xlcd.h@{xlcd.h}}
+\subsubsection{\texorpdfstring{RS\_PIN}{RS\_PIN}}
+{\footnotesize\ttfamily \#define R\+S\+\_\+\+P\+IN~L\+A\+T\+Cbits.\+L\+A\+T\+C0}
+
+P\+O\+RT for RS \mbox{\Hypertarget{xlcd_8h_af1976219619b43405b2ebb8a53feb4a0}\label{xlcd_8h_af1976219619b43405b2ebb8a53feb4a0}} 
+\index{xlcd.h@{xlcd.h}!RW\_PIN@{RW\_PIN}}
+\index{RW\_PIN@{RW\_PIN}!xlcd.h@{xlcd.h}}
+\subsubsection{\texorpdfstring{RW\_PIN}{RW\_PIN}}
+{\footnotesize\ttfamily \#define R\+W\+\_\+\+P\+IN~L\+A\+T\+Cbits.\+L\+A\+T\+C2}
+
+C\+T\+R\+L\+\_\+\+P\+O\+RT defines the port where the control lines are connected. These are just samples, change to match your application. In case changes are introduce to match application\textquotesingle{}s specifics then source files should be explicitly included in your project so they are re-\/compiled as a part of the project. One could also decide (or explicitly need) to redirect this header file in another, project specific location\+P\+O\+RT for RW \mbox{\Hypertarget{xlcd_8h_a81fa633c1f0026f8d53c6dd7375dffb4}\label{xlcd_8h_a81fa633c1f0026f8d53c6dd7375dffb4}} 
+\index{xlcd.h@{xlcd.h}!SHIFT\_CUR\_LEFT@{SHIFT\_CUR\_LEFT}}
+\index{SHIFT\_CUR\_LEFT@{SHIFT\_CUR\_LEFT}!xlcd.h@{xlcd.h}}
+\subsubsection{\texorpdfstring{SHIFT\_CUR\_LEFT}{SHIFT\_CUR\_LEFT}}
+{\footnotesize\ttfamily \#define S\+H\+I\+F\+T\+\_\+\+C\+U\+R\+\_\+\+L\+E\+FT~0b00000100}
+
+Cursor or Display Shift defines Cursor shifts to the left \mbox{\Hypertarget{xlcd_8h_a2c2875f6a5266f5148e54ef7ebf4b9ba}\label{xlcd_8h_a2c2875f6a5266f5148e54ef7ebf4b9ba}} 
+\index{xlcd.h@{xlcd.h}!SHIFT\_CUR\_RIGHT@{SHIFT\_CUR\_RIGHT}}
+\index{SHIFT\_CUR\_RIGHT@{SHIFT\_CUR\_RIGHT}!xlcd.h@{xlcd.h}}
+\subsubsection{\texorpdfstring{SHIFT\_CUR\_RIGHT}{SHIFT\_CUR\_RIGHT}}
+{\footnotesize\ttfamily \#define S\+H\+I\+F\+T\+\_\+\+C\+U\+R\+\_\+\+R\+I\+G\+HT~0b00000101}
+
+Cursor shifts to the right \mbox{\Hypertarget{xlcd_8h_a208cc56a99d35444c6c874d1f7f788c8}\label{xlcd_8h_a208cc56a99d35444c6c874d1f7f788c8}} 
+\index{xlcd.h@{xlcd.h}!SHIFT\_DISP\_LEFT@{SHIFT\_DISP\_LEFT}}
+\index{SHIFT\_DISP\_LEFT@{SHIFT\_DISP\_LEFT}!xlcd.h@{xlcd.h}}
+\subsubsection{\texorpdfstring{SHIFT\_DISP\_LEFT}{SHIFT\_DISP\_LEFT}}
+{\footnotesize\ttfamily \#define S\+H\+I\+F\+T\+\_\+\+D\+I\+S\+P\+\_\+\+L\+E\+FT~0b00000110}
+
+Display shifts to the left \mbox{\Hypertarget{xlcd_8h_a32f9ac76d6dc61f16372861b671ac725}\label{xlcd_8h_a32f9ac76d6dc61f16372861b671ac725}} 
+\index{xlcd.h@{xlcd.h}!SHIFT\_DISP\_RIGHT@{SHIFT\_DISP\_RIGHT}}
+\index{SHIFT\_DISP\_RIGHT@{SHIFT\_DISP\_RIGHT}!xlcd.h@{xlcd.h}}
+\subsubsection{\texorpdfstring{SHIFT\_DISP\_RIGHT}{SHIFT\_DISP\_RIGHT}}
+{\footnotesize\ttfamily \#define S\+H\+I\+F\+T\+\_\+\+D\+I\+S\+P\+\_\+\+R\+I\+G\+HT~0b00000111}
+
+Display shifts to the right \mbox{\Hypertarget{xlcd_8h_ac1184a4348ebb730401000beec6153d0}\label{xlcd_8h_ac1184a4348ebb730401000beec6153d0}} 
+\index{xlcd.h@{xlcd.h}!TRIS\_DATA\_PORT@{TRIS\_DATA\_PORT}}
+\index{TRIS\_DATA\_PORT@{TRIS\_DATA\_PORT}!xlcd.h@{xlcd.h}}
+\subsubsection{\texorpdfstring{TRIS\_DATA\_PORT}{TRIS\_DATA\_PORT}}
+{\footnotesize\ttfamily \#define T\+R\+I\+S\+\_\+\+D\+A\+T\+A\+\_\+\+P\+O\+RT~T\+R\+I\+SB}
+
+\mbox{\Hypertarget{xlcd_8h_a1ef9e90842eba3efc4939c320e70e19e}\label{xlcd_8h_a1ef9e90842eba3efc4939c320e70e19e}} 
+\index{xlcd.h@{xlcd.h}!TRIS\_E@{TRIS\_E}}
+\index{TRIS\_E@{TRIS\_E}!xlcd.h@{xlcd.h}}
+\subsubsection{\texorpdfstring{TRIS\_E}{TRIS\_E}}
+{\footnotesize\ttfamily \#define T\+R\+I\+S\+\_\+E~T\+R\+I\+S\+Cbits.\+R\+C1}
+
+T\+R\+IS for E \mbox{\Hypertarget{xlcd_8h_a5f2335522a654eed4c0c55f188bd9a97}\label{xlcd_8h_a5f2335522a654eed4c0c55f188bd9a97}} 
+\index{xlcd.h@{xlcd.h}!TRIS\_RS@{TRIS\_RS}}
+\index{TRIS\_RS@{TRIS\_RS}!xlcd.h@{xlcd.h}}
+\subsubsection{\texorpdfstring{TRIS\_RS}{TRIS\_RS}}
+{\footnotesize\ttfamily \#define T\+R\+I\+S\+\_\+\+RS~T\+R\+I\+S\+Cbits.\+R\+C0}
+
+T\+R\+IS for RS \mbox{\Hypertarget{xlcd_8h_ab578f814b401dce6b7a329e0e1277d5a}\label{xlcd_8h_ab578f814b401dce6b7a329e0e1277d5a}} 
+\index{xlcd.h@{xlcd.h}!TRIS\_RW@{TRIS\_RW}}
+\index{TRIS\_RW@{TRIS\_RW}!xlcd.h@{xlcd.h}}
+\subsubsection{\texorpdfstring{TRIS\_RW}{TRIS\_RW}}
+{\footnotesize\ttfamily \#define T\+R\+I\+S\+\_\+\+RW~T\+R\+I\+S\+Cbits.\+R\+C2}
+
+T\+R\+IS for RW 
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{xlcd_8h_a91696a9143372499e8d0c62ee6d120a3}\label{xlcd_8h_a91696a9143372499e8d0c62ee6d120a3}} 
+\index{xlcd.h@{xlcd.h}!BusyXLCD@{BusyXLCD}}
+\index{BusyXLCD@{BusyXLCD}!xlcd.h@{xlcd.h}}
+\subsubsection{\texorpdfstring{BusyXLCD()}{BusyXLCD()}}
+{\footnotesize\ttfamily unsigned char Busy\+X\+L\+CD (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+Busy\+X\+L\+CD Returns the busy status of the L\+CD \mbox{\Hypertarget{xlcd_8h_a54376ee8b5eb84384dbad143dff37882}\label{xlcd_8h_a54376ee8b5eb84384dbad143dff37882}} 
+\index{xlcd.h@{xlcd.h}!DelayFor18TCY@{DelayFor18TCY}}
+\index{DelayFor18TCY@{DelayFor18TCY}!xlcd.h@{xlcd.h}}
+\subsubsection{\texorpdfstring{DelayFor18TCY()}{DelayFor18TCY()}}
+{\footnotesize\ttfamily void Delay\+For18\+T\+CY (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+User defines these routines according to the oscillator frequency \mbox{\Hypertarget{xlcd_8h_a7cb975b2525b10b6c8e50f67bb2e5e0d}\label{xlcd_8h_a7cb975b2525b10b6c8e50f67bb2e5e0d}} 
+\index{xlcd.h@{xlcd.h}!DelayPORXLCD@{DelayPORXLCD}}
+\index{DelayPORXLCD@{DelayPORXLCD}!xlcd.h@{xlcd.h}}
+\subsubsection{\texorpdfstring{DelayPORXLCD()}{DelayPORXLCD()}}
+{\footnotesize\ttfamily void Delay\+P\+O\+R\+X\+L\+CD (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{xlcd_8h_a5f4c6c2ccf12e67ea08cb6c49df027e1}\label{xlcd_8h_a5f4c6c2ccf12e67ea08cb6c49df027e1}} 
+\index{xlcd.h@{xlcd.h}!DelayXLCD@{DelayXLCD}}
+\index{DelayXLCD@{DelayXLCD}!xlcd.h@{xlcd.h}}
+\subsubsection{\texorpdfstring{DelayXLCD()}{DelayXLCD()}}
+{\footnotesize\ttfamily void Delay\+X\+L\+CD (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{xlcd_8h_a852e069fe5edfeb1f27ff7a5b4b1a896}\label{xlcd_8h_a852e069fe5edfeb1f27ff7a5b4b1a896}} 
+\index{xlcd.h@{xlcd.h}!OpenXLCD@{OpenXLCD}}
+\index{OpenXLCD@{OpenXLCD}!xlcd.h@{xlcd.h}}
+\subsubsection{\texorpdfstring{OpenXLCD()}{OpenXLCD()}}
+{\footnotesize\ttfamily void Open\+X\+L\+CD (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{xlcd_8h_ae7f1b0496d10abad7374d9a702844c06}{P\+A\+R\+A\+M\+\_\+\+S\+C\+L\+A\+SS}} unsigned char}]{ }\end{DoxyParamCaption})}
+
+Open\+X\+L\+CD Configures I/O pins for external L\+CD \mbox{\Hypertarget{xlcd_8h_a3490ad6d1620790a568dc0fef4bc5cbe}\label{xlcd_8h_a3490ad6d1620790a568dc0fef4bc5cbe}} 
+\index{xlcd.h@{xlcd.h}!putrsXLCD@{putrsXLCD}}
+\index{putrsXLCD@{putrsXLCD}!xlcd.h@{xlcd.h}}
+\subsubsection{\texorpdfstring{putrsXLCD()}{putrsXLCD()}}
+{\footnotesize\ttfamily void putrs\+X\+L\+CD (\begin{DoxyParamCaption}\item[{const char $\ast$}]{ }\end{DoxyParamCaption})}
+
+putrs\+X\+L\+CD Writes a string of characters in R\+OM to the L\+CD \mbox{\Hypertarget{xlcd_8h_ae54bf113caa1fab3efaafd95d8088fc5}\label{xlcd_8h_ae54bf113caa1fab3efaafd95d8088fc5}} 
+\index{xlcd.h@{xlcd.h}!putsXLCD@{putsXLCD}}
+\index{putsXLCD@{putsXLCD}!xlcd.h@{xlcd.h}}
+\subsubsection{\texorpdfstring{putsXLCD()}{putsXLCD()}}
+{\footnotesize\ttfamily void puts\+X\+L\+CD (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{xlcd_8h_ae7f1b0496d10abad7374d9a702844c06}{P\+A\+R\+A\+M\+\_\+\+S\+C\+L\+A\+SS}} char $\ast$}]{ }\end{DoxyParamCaption})}
+
+puts\+X\+L\+CD Writes a string of characters to the L\+CD \mbox{\Hypertarget{xlcd_8h_a38d4e19db825ec97f34cb0e7b1350565}\label{xlcd_8h_a38d4e19db825ec97f34cb0e7b1350565}} 
+\index{xlcd.h@{xlcd.h}!ReadAddrXLCD@{ReadAddrXLCD}}
+\index{ReadAddrXLCD@{ReadAddrXLCD}!xlcd.h@{xlcd.h}}
+\subsubsection{\texorpdfstring{ReadAddrXLCD()}{ReadAddrXLCD()}}
+{\footnotesize\ttfamily unsigned char Read\+Addr\+X\+L\+CD (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+Read\+Addr\+X\+L\+CD Reads the current address \mbox{\Hypertarget{xlcd_8h_af1cd7eb4d35da7aa3a57bfa7796703a7}\label{xlcd_8h_af1cd7eb4d35da7aa3a57bfa7796703a7}} 
+\index{xlcd.h@{xlcd.h}!ReadDataXLCD@{ReadDataXLCD}}
+\index{ReadDataXLCD@{ReadDataXLCD}!xlcd.h@{xlcd.h}}
+\subsubsection{\texorpdfstring{ReadDataXLCD()}{ReadDataXLCD()}}
+{\footnotesize\ttfamily char Read\+Data\+X\+L\+CD (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+Read\+Data\+X\+L\+CD Reads a byte of data \mbox{\Hypertarget{xlcd_8h_ac838d8593d7a725b2f2ccfdb41cf121c}\label{xlcd_8h_ac838d8593d7a725b2f2ccfdb41cf121c}} 
+\index{xlcd.h@{xlcd.h}!SetCGRamAddr@{SetCGRamAddr}}
+\index{SetCGRamAddr@{SetCGRamAddr}!xlcd.h@{xlcd.h}}
+\subsubsection{\texorpdfstring{SetCGRamAddr()}{SetCGRamAddr()}}
+{\footnotesize\ttfamily void Set\+C\+G\+Ram\+Addr (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{xlcd_8h_ae7f1b0496d10abad7374d9a702844c06}{P\+A\+R\+A\+M\+\_\+\+S\+C\+L\+A\+SS}} unsigned char}]{ }\end{DoxyParamCaption})}
+
+Set\+C\+G\+Ram\+Addr Sets the character generator address \mbox{\Hypertarget{xlcd_8h_a757a3f535f1c29015cb530a07f5ee781}\label{xlcd_8h_a757a3f535f1c29015cb530a07f5ee781}} 
+\index{xlcd.h@{xlcd.h}!SetDDRamAddr@{SetDDRamAddr}}
+\index{SetDDRamAddr@{SetDDRamAddr}!xlcd.h@{xlcd.h}}
+\subsubsection{\texorpdfstring{SetDDRamAddr()}{SetDDRamAddr()}}
+{\footnotesize\ttfamily void Set\+D\+D\+Ram\+Addr (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{xlcd_8h_ae7f1b0496d10abad7374d9a702844c06}{P\+A\+R\+A\+M\+\_\+\+S\+C\+L\+A\+SS}} unsigned char}]{ }\end{DoxyParamCaption})}
+
+Set\+D\+D\+Ram\+Addr Sets the display data address \mbox{\Hypertarget{xlcd_8h_aaa9045cb60d057729b136b292dac269e}\label{xlcd_8h_aaa9045cb60d057729b136b292dac269e}} 
+\index{xlcd.h@{xlcd.h}!WriteCmdXLCD@{WriteCmdXLCD}}
+\index{WriteCmdXLCD@{WriteCmdXLCD}!xlcd.h@{xlcd.h}}
+\subsubsection{\texorpdfstring{WriteCmdXLCD()}{WriteCmdXLCD()}}
+{\footnotesize\ttfamily void Write\+Cmd\+X\+L\+CD (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{xlcd_8h_ae7f1b0496d10abad7374d9a702844c06}{P\+A\+R\+A\+M\+\_\+\+S\+C\+L\+A\+SS}} unsigned char}]{ }\end{DoxyParamCaption})}
+
+Write\+Cmd\+X\+L\+CD Writes a command to the L\+CD \mbox{\Hypertarget{xlcd_8h_a40ad2fb97c45f42dbaa6161fa1a303ca}\label{xlcd_8h_a40ad2fb97c45f42dbaa6161fa1a303ca}} 
+\index{xlcd.h@{xlcd.h}!WriteDataXLCD@{WriteDataXLCD}}
+\index{WriteDataXLCD@{WriteDataXLCD}!xlcd.h@{xlcd.h}}
+\subsubsection{\texorpdfstring{WriteDataXLCD()}{WriteDataXLCD()}}
+{\footnotesize\ttfamily void Write\+Data\+X\+L\+CD (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{xlcd_8h_ae7f1b0496d10abad7374d9a702844c06}{P\+A\+R\+A\+M\+\_\+\+S\+C\+L\+A\+SS}} char}]{ }\end{DoxyParamCaption})}
+
+Write\+Data\+X\+L\+CD Writes a data byte to the L\+CD 

@@ -1,0 +1,1 @@
+ build/default/production/setcgram.d  build/default/production/setcgram.p1:  setcgram.c ../../common/include/plib/htc.h ../../common/include/plib/p18cxxx.h xlcd.h

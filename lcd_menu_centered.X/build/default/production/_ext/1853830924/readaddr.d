@@ -1,0 +1,1 @@
+ build/default/production/_ext/1853830924/readaddr.d  build/default/production/_ext/1853830924/readaddr.p1:  ../../common/sources/plib/XLCD/readaddr.c ../../common/include/plib/htc.h ../../common/include/plib/p18cxxx.h ../../common/include/plib/xlcd.h

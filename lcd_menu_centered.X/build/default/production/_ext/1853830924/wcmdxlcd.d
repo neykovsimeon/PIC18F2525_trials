@@ -1,0 +1,1 @@
+ build/default/production/_ext/1853830924/wcmdxlcd.d  build/default/production/_ext/1853830924/wcmdxlcd.p1:  ../../common/sources/plib/XLCD/wcmdxlcd.c ../../common/include/plib/htc.h ../../common/include/plib/p18cxxx.h ../../common/include/plib/xlcd.h

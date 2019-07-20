@@ -1,0 +1,1 @@
+ build/default/production/putrxlcd.d  build/default/production/putrxlcd.p1:  putrxlcd.c ../../common/include/plib/htc.h ../../common/include/plib/p18cxxx.h xlcd.h

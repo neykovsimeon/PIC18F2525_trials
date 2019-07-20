@@ -1,0 +1,291 @@
+\hypertarget{lcd__menu_8c}{}\section{D\+:/\+Projects/pic18f2525/\+L\+C\+D\+\_\+trials/lcd\+\_\+mcu\+\_\+menu.X/lcd\+\_\+menu.c File Reference}
+\label{lcd__menu_8c}\index{D:/Projects/pic18f2525/LCD\_trials/lcd\_mcu\_menu.X/lcd\_menu.c@{D:/Projects/pic18f2525/LCD\_trials/lcd\_mcu\_menu.X/lcd\_menu.c}}
+{\ttfamily \#include $<$xc.\+h$>$}\newline
+{\ttfamily \#include $<$math.\+h$>$}\newline
+{\ttfamily \#include $<$stdint.\+h$>$}\newline
+{\ttfamily \#include $<$stdbool.\+h$>$}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include $<$plib/delays.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}lcd\+\_\+menu.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}xlcd.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{lcd__menu_8c_a040dcd29748b278178f4ac7b8ab8240a}{L\+C\+D\+Write\+Cmd}} (unsigned char command)
+\item 
+void \mbox{\hyperlink{lcd__menu_8c_a07cca7b02e387c8bdf514898a95eae0a}{clear\+\_\+display}} (void)
+\item 
+void \mbox{\hyperlink{lcd__menu_8c_a54376ee8b5eb84384dbad143dff37882}{Delay\+For18\+T\+CY}} (void)
+\item 
+void \mbox{\hyperlink{lcd__menu_8c_a7cb975b2525b10b6c8e50f67bb2e5e0d}{Delay\+P\+O\+R\+X\+L\+CD}} (void)
+\item 
+void \mbox{\hyperlink{lcd__menu_8c_a5f4c6c2ccf12e67ea08cb6c49df027e1}{Delay\+X\+L\+CD}} (void)
+\item 
+void \mbox{\hyperlink{lcd__menu_8c_a13317350ea3ad6e9dfecd09fc0f45d6d}{Delay1\+Sec}} (void)
+\item 
+void \mbox{\hyperlink{lcd__menu_8c_a0c40e4d1943f5b23f6bdf36f48ca5d22}{Delay\+Half\+Sec}} (void)
+\item 
+void \mbox{\hyperlink{lcd__menu_8c_a9ce5d3350a05e24307eed4166bf41b60}{Delay200ms}} (void)
+\item 
+void \mbox{\hyperlink{lcd__menu_8c_ac53a0912ba84dc08cdaee7694d1fd203}{gotoxy}} (unsigned char x\+\_\+pos, unsigned char y\+\_\+pos)
+\item 
+void \mbox{\hyperlink{lcd__menu_8c_a0276cb03d41b1b9a9d71a7371f122a69}{L\+C\+D\+Write\+String\+R\+OM}} (unsigned char x, unsigned char y, const char $\ast$lcd\+\_\+menu\+\_\+items, unsigned char add\+\_\+line, char add\+\_\+char)
+\item 
+void \mbox{\hyperlink{lcd__menu_8c_adf9086686cc274a57fdd1f13fd890827}{show\+\_\+menu}} (void)
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+unsigned char \mbox{\hyperlink{lcd__menu_8c_a4c0237fdbba78af703ee275cc492a8b1}{selected}} = 1
+\item 
+const char \mbox{\hyperlink{lcd__menu_8c_a6a53e2d9ae50c77c2ffc5c711b111dba}{menu\+\_\+000}} \mbox{[}$\,$\mbox{]} = \char`\"{}-\/-\/ Main Menu -\/-\/\char`\"{}
+\item 
+const char \mbox{\hyperlink{lcd__menu_8c_ac4435409364862d3cae93980d752ecf0}{menu\+\_\+001}} \mbox{[}$\,$\mbox{]} = \char`\"{} Option1\char`\"{}
+\item 
+const char \mbox{\hyperlink{lcd__menu_8c_a055f916590b9b0f42617797a82b4ced8}{menu\+\_\+002}} \mbox{[}$\,$\mbox{]} = \char`\"{} Option2\char`\"{}
+\item 
+const char \mbox{\hyperlink{lcd__menu_8c_a5acf0e7f06a780172bd4e4c4274759ed}{menu\+\_\+003}} \mbox{[}$\,$\mbox{]} = \char`\"{} Option3\char`\"{}
+\item 
+const char \mbox{\hyperlink{lcd__menu_8c_a5362e497f10a38f578806f7e8d06918e}{menu\+\_\+004}} \mbox{[}$\,$\mbox{]} = \char`\"{} Option4\char`\"{}
+\item 
+const char \mbox{\hyperlink{lcd__menu_8c_a048351703a605a3776ba4b95e08a7823}{menu\+\_\+005}} \mbox{[}$\,$\mbox{]} = \char`\"{} Option5\char`\"{}
+\item 
+const char \mbox{\hyperlink{lcd__menu_8c_aec4fc6e37914c3c367f5f04ad552ca46}{menu\+\_\+006}} \mbox{[}$\,$\mbox{]} = \char`\"{} Option6\char`\"{}
+\item 
+const char \mbox{\hyperlink{lcd__menu_8c_ae2b122d5852dedea1b45e5daa0adf4cb}{menu\+\_\+007}} \mbox{[}$\,$\mbox{]} = \char`\"{} Option7\char`\"{}
+\item 
+const char \mbox{\hyperlink{lcd__menu_8c_a9fc9c94885d4ca58b6365859ab26b9f8}{menu\+\_\+008}} \mbox{[}$\,$\mbox{]} = \char`\"{} Option8\char`\"{}
+\item 
+const char \mbox{\hyperlink{lcd__menu_8c_a6111d9686142106c91b578be38a1d2ba}{menu\+\_\+009}} \mbox{[}$\,$\mbox{]} = \char`\"{} S\+T\+A\+RT\char`\"{}
+\item 
+const char \mbox{\hyperlink{lcd__menu_8c_acc0162b563078c45c3e5c07c18eee60e}{menu\+\_\+010}} \mbox{[}$\,$\mbox{]} = \char`\"{} \mbox{[}Sub Menu\mbox{]}\char`\"{}
+\item 
+const char \mbox{\hyperlink{lcd__menu_8c_acbbbb3c1188871fecb6b1cdbe9dd1c53}{menu\+\_\+011}} \mbox{[}$\,$\mbox{]} = \char`\"{} Sub\+Option1\char`\"{}
+\item 
+const char \mbox{\hyperlink{lcd__menu_8c_a9c6d84c1f5d24b54c4e3d8d7243c7d1e}{menu\+\_\+012}} \mbox{[}$\,$\mbox{]} = \char`\"{} Sub\+Option2\char`\"{}
+\item 
+const char \mbox{\hyperlink{lcd__menu_8c_a1eb7807058925f6e433402aaeaf68a2e}{menu\+\_\+013}} \mbox{[}$\,$\mbox{]} = \char`\"{} Sub\+Option3\char`\"{}
+\item 
+const char \mbox{\hyperlink{lcd__menu_8c_a40e5b3ca6c0ff44725f263fd48b7b3d9}{menu\+\_\+014}} \mbox{[}$\,$\mbox{]} = \char`\"{} Sub\+Option4\char`\"{}
+\item 
+const char \mbox{\hyperlink{lcd__menu_8c_afd8983259c42e4f428481593320dffba}{menu\+\_\+015}} \mbox{[}$\,$\mbox{]} = \char`\"{} Sub\+Option5\char`\"{}
+\item 
+const char \mbox{\hyperlink{lcd__menu_8c_a49732f542265f34400cf800a60889fee}{menu\+\_\+016}} \mbox{[}$\,$\mbox{]} = \char`\"{} R\+E\+T\+U\+RN\char`\"{}
+\item 
+\mbox{\hyperlink{lcd__menu_8h_acf567e8cfba6ea42ed54a7bfc6aee6de}{Menu\+Entry}} \mbox{\hyperlink{lcd__menu_8c_adb967101fc7f610424156c31fc5d09dd}{my\+\_\+menu}} \mbox{[}$\,$\mbox{]}
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{lcd__menu_8c_a07cca7b02e387c8bdf514898a95eae0a}\label{lcd__menu_8c_a07cca7b02e387c8bdf514898a95eae0a}} 
+\index{lcd\_menu.c@{lcd\_menu.c}!clear\_display@{clear\_display}}
+\index{clear\_display@{clear\_display}!lcd\_menu.c@{lcd\_menu.c}}
+\subsubsection{\texorpdfstring{clear\_display()}{clear\_display()}}
+{\footnotesize\ttfamily void clear\+\_\+display (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{lcd__menu_8c_a13317350ea3ad6e9dfecd09fc0f45d6d}\label{lcd__menu_8c_a13317350ea3ad6e9dfecd09fc0f45d6d}} 
+\index{lcd\_menu.c@{lcd\_menu.c}!Delay1Sec@{Delay1Sec}}
+\index{Delay1Sec@{Delay1Sec}!lcd\_menu.c@{lcd\_menu.c}}
+\subsubsection{\texorpdfstring{Delay1Sec()}{Delay1Sec()}}
+{\footnotesize\ttfamily void Delay1\+Sec (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{lcd__menu_8c_a9ce5d3350a05e24307eed4166bf41b60}\label{lcd__menu_8c_a9ce5d3350a05e24307eed4166bf41b60}} 
+\index{lcd\_menu.c@{lcd\_menu.c}!Delay200ms@{Delay200ms}}
+\index{Delay200ms@{Delay200ms}!lcd\_menu.c@{lcd\_menu.c}}
+\subsubsection{\texorpdfstring{Delay200ms()}{Delay200ms()}}
+{\footnotesize\ttfamily void Delay200ms (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{lcd__menu_8c_a54376ee8b5eb84384dbad143dff37882}\label{lcd__menu_8c_a54376ee8b5eb84384dbad143dff37882}} 
+\index{lcd\_menu.c@{lcd\_menu.c}!DelayFor18TCY@{DelayFor18TCY}}
+\index{DelayFor18TCY@{DelayFor18TCY}!lcd\_menu.c@{lcd\_menu.c}}
+\subsubsection{\texorpdfstring{DelayFor18TCY()}{DelayFor18TCY()}}
+{\footnotesize\ttfamily void Delay\+For18\+T\+CY (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+User defines these routines according to the oscillator frequency \mbox{\Hypertarget{lcd__menu_8c_a0c40e4d1943f5b23f6bdf36f48ca5d22}\label{lcd__menu_8c_a0c40e4d1943f5b23f6bdf36f48ca5d22}} 
+\index{lcd\_menu.c@{lcd\_menu.c}!DelayHalfSec@{DelayHalfSec}}
+\index{DelayHalfSec@{DelayHalfSec}!lcd\_menu.c@{lcd\_menu.c}}
+\subsubsection{\texorpdfstring{DelayHalfSec()}{DelayHalfSec()}}
+{\footnotesize\ttfamily void Delay\+Half\+Sec (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{lcd__menu_8c_a7cb975b2525b10b6c8e50f67bb2e5e0d}\label{lcd__menu_8c_a7cb975b2525b10b6c8e50f67bb2e5e0d}} 
+\index{lcd\_menu.c@{lcd\_menu.c}!DelayPORXLCD@{DelayPORXLCD}}
+\index{DelayPORXLCD@{DelayPORXLCD}!lcd\_menu.c@{lcd\_menu.c}}
+\subsubsection{\texorpdfstring{DelayPORXLCD()}{DelayPORXLCD()}}
+{\footnotesize\ttfamily void Delay\+P\+O\+R\+X\+L\+CD (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{lcd__menu_8c_a5f4c6c2ccf12e67ea08cb6c49df027e1}\label{lcd__menu_8c_a5f4c6c2ccf12e67ea08cb6c49df027e1}} 
+\index{lcd\_menu.c@{lcd\_menu.c}!DelayXLCD@{DelayXLCD}}
+\index{DelayXLCD@{DelayXLCD}!lcd\_menu.c@{lcd\_menu.c}}
+\subsubsection{\texorpdfstring{DelayXLCD()}{DelayXLCD()}}
+{\footnotesize\ttfamily void Delay\+X\+L\+CD (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{lcd__menu_8c_ac53a0912ba84dc08cdaee7694d1fd203}\label{lcd__menu_8c_ac53a0912ba84dc08cdaee7694d1fd203}} 
+\index{lcd\_menu.c@{lcd\_menu.c}!gotoxy@{gotoxy}}
+\index{gotoxy@{gotoxy}!lcd\_menu.c@{lcd\_menu.c}}
+\subsubsection{\texorpdfstring{gotoxy()}{gotoxy()}}
+{\footnotesize\ttfamily void gotoxy (\begin{DoxyParamCaption}\item[{unsigned char}]{x\+\_\+pos,  }\item[{unsigned char}]{y\+\_\+pos }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{lcd__menu_8c_a040dcd29748b278178f4ac7b8ab8240a}\label{lcd__menu_8c_a040dcd29748b278178f4ac7b8ab8240a}} 
+\index{lcd\_menu.c@{lcd\_menu.c}!LCDWriteCmd@{LCDWriteCmd}}
+\index{LCDWriteCmd@{LCDWriteCmd}!lcd\_menu.c@{lcd\_menu.c}}
+\subsubsection{\texorpdfstring{LCDWriteCmd()}{LCDWriteCmd()}}
+{\footnotesize\ttfamily void L\+C\+D\+Write\+Cmd (\begin{DoxyParamCaption}\item[{unsigned char}]{command }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{lcd__menu_8c_a0276cb03d41b1b9a9d71a7371f122a69}\label{lcd__menu_8c_a0276cb03d41b1b9a9d71a7371f122a69}} 
+\index{lcd\_menu.c@{lcd\_menu.c}!LCDWriteStringROM@{LCDWriteStringROM}}
+\index{LCDWriteStringROM@{LCDWriteStringROM}!lcd\_menu.c@{lcd\_menu.c}}
+\subsubsection{\texorpdfstring{LCDWriteStringROM()}{LCDWriteStringROM()}}
+{\footnotesize\ttfamily void L\+C\+D\+Write\+String\+R\+OM (\begin{DoxyParamCaption}\item[{unsigned char}]{x,  }\item[{unsigned char}]{y,  }\item[{const char $\ast$}]{lcd\+\_\+menu\+\_\+items,  }\item[{unsigned char}]{add\+\_\+line,  }\item[{char}]{add\+\_\+char }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{lcd__menu_8c_adf9086686cc274a57fdd1f13fd890827}\label{lcd__menu_8c_adf9086686cc274a57fdd1f13fd890827}} 
+\index{lcd\_menu.c@{lcd\_menu.c}!show\_menu@{show\_menu}}
+\index{show\_menu@{show\_menu}!lcd\_menu.c@{lcd\_menu.c}}
+\subsubsection{\texorpdfstring{show\_menu()}{show\_menu()}}
+{\footnotesize\ttfamily void show\+\_\+menu (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+$<$ from which row of menu points
+
+$<$ till which row of menu points 
+
+\subsection{Variable Documentation}
+\mbox{\Hypertarget{lcd__menu_8c_a6a53e2d9ae50c77c2ffc5c711b111dba}\label{lcd__menu_8c_a6a53e2d9ae50c77c2ffc5c711b111dba}} 
+\index{lcd\_menu.c@{lcd\_menu.c}!menu\_000@{menu\_000}}
+\index{menu\_000@{menu\_000}!lcd\_menu.c@{lcd\_menu.c}}
+\subsubsection{\texorpdfstring{menu\_000}{menu\_000}}
+{\footnotesize\ttfamily const char menu\+\_\+000\mbox{[}$\,$\mbox{]} = \char`\"{}-\/-\/ Main Menu -\/-\/\char`\"{}}
+
+\mbox{\Hypertarget{lcd__menu_8c_ac4435409364862d3cae93980d752ecf0}\label{lcd__menu_8c_ac4435409364862d3cae93980d752ecf0}} 
+\index{lcd\_menu.c@{lcd\_menu.c}!menu\_001@{menu\_001}}
+\index{menu\_001@{menu\_001}!lcd\_menu.c@{lcd\_menu.c}}
+\subsubsection{\texorpdfstring{menu\_001}{menu\_001}}
+{\footnotesize\ttfamily const char menu\+\_\+001\mbox{[}$\,$\mbox{]} = \char`\"{} Option1\char`\"{}}
+
+\mbox{\Hypertarget{lcd__menu_8c_a055f916590b9b0f42617797a82b4ced8}\label{lcd__menu_8c_a055f916590b9b0f42617797a82b4ced8}} 
+\index{lcd\_menu.c@{lcd\_menu.c}!menu\_002@{menu\_002}}
+\index{menu\_002@{menu\_002}!lcd\_menu.c@{lcd\_menu.c}}
+\subsubsection{\texorpdfstring{menu\_002}{menu\_002}}
+{\footnotesize\ttfamily const char menu\+\_\+002\mbox{[}$\,$\mbox{]} = \char`\"{} Option2\char`\"{}}
+
+\mbox{\Hypertarget{lcd__menu_8c_a5acf0e7f06a780172bd4e4c4274759ed}\label{lcd__menu_8c_a5acf0e7f06a780172bd4e4c4274759ed}} 
+\index{lcd\_menu.c@{lcd\_menu.c}!menu\_003@{menu\_003}}
+\index{menu\_003@{menu\_003}!lcd\_menu.c@{lcd\_menu.c}}
+\subsubsection{\texorpdfstring{menu\_003}{menu\_003}}
+{\footnotesize\ttfamily const char menu\+\_\+003\mbox{[}$\,$\mbox{]} = \char`\"{} Option3\char`\"{}}
+
+\mbox{\Hypertarget{lcd__menu_8c_a5362e497f10a38f578806f7e8d06918e}\label{lcd__menu_8c_a5362e497f10a38f578806f7e8d06918e}} 
+\index{lcd\_menu.c@{lcd\_menu.c}!menu\_004@{menu\_004}}
+\index{menu\_004@{menu\_004}!lcd\_menu.c@{lcd\_menu.c}}
+\subsubsection{\texorpdfstring{menu\_004}{menu\_004}}
+{\footnotesize\ttfamily const char menu\+\_\+004\mbox{[}$\,$\mbox{]} = \char`\"{} Option4\char`\"{}}
+
+\mbox{\Hypertarget{lcd__menu_8c_a048351703a605a3776ba4b95e08a7823}\label{lcd__menu_8c_a048351703a605a3776ba4b95e08a7823}} 
+\index{lcd\_menu.c@{lcd\_menu.c}!menu\_005@{menu\_005}}
+\index{menu\_005@{menu\_005}!lcd\_menu.c@{lcd\_menu.c}}
+\subsubsection{\texorpdfstring{menu\_005}{menu\_005}}
+{\footnotesize\ttfamily const char menu\+\_\+005\mbox{[}$\,$\mbox{]} = \char`\"{} Option5\char`\"{}}
+
+\mbox{\Hypertarget{lcd__menu_8c_aec4fc6e37914c3c367f5f04ad552ca46}\label{lcd__menu_8c_aec4fc6e37914c3c367f5f04ad552ca46}} 
+\index{lcd\_menu.c@{lcd\_menu.c}!menu\_006@{menu\_006}}
+\index{menu\_006@{menu\_006}!lcd\_menu.c@{lcd\_menu.c}}
+\subsubsection{\texorpdfstring{menu\_006}{menu\_006}}
+{\footnotesize\ttfamily const char menu\+\_\+006\mbox{[}$\,$\mbox{]} = \char`\"{} Option6\char`\"{}}
+
+\mbox{\Hypertarget{lcd__menu_8c_ae2b122d5852dedea1b45e5daa0adf4cb}\label{lcd__menu_8c_ae2b122d5852dedea1b45e5daa0adf4cb}} 
+\index{lcd\_menu.c@{lcd\_menu.c}!menu\_007@{menu\_007}}
+\index{menu\_007@{menu\_007}!lcd\_menu.c@{lcd\_menu.c}}
+\subsubsection{\texorpdfstring{menu\_007}{menu\_007}}
+{\footnotesize\ttfamily const char menu\+\_\+007\mbox{[}$\,$\mbox{]} = \char`\"{} Option7\char`\"{}}
+
+\mbox{\Hypertarget{lcd__menu_8c_a9fc9c94885d4ca58b6365859ab26b9f8}\label{lcd__menu_8c_a9fc9c94885d4ca58b6365859ab26b9f8}} 
+\index{lcd\_menu.c@{lcd\_menu.c}!menu\_008@{menu\_008}}
+\index{menu\_008@{menu\_008}!lcd\_menu.c@{lcd\_menu.c}}
+\subsubsection{\texorpdfstring{menu\_008}{menu\_008}}
+{\footnotesize\ttfamily const char menu\+\_\+008\mbox{[}$\,$\mbox{]} = \char`\"{} Option8\char`\"{}}
+
+\mbox{\Hypertarget{lcd__menu_8c_a6111d9686142106c91b578be38a1d2ba}\label{lcd__menu_8c_a6111d9686142106c91b578be38a1d2ba}} 
+\index{lcd\_menu.c@{lcd\_menu.c}!menu\_009@{menu\_009}}
+\index{menu\_009@{menu\_009}!lcd\_menu.c@{lcd\_menu.c}}
+\subsubsection{\texorpdfstring{menu\_009}{menu\_009}}
+{\footnotesize\ttfamily const char menu\+\_\+009\mbox{[}$\,$\mbox{]} = \char`\"{} S\+T\+A\+RT\char`\"{}}
+
+\mbox{\Hypertarget{lcd__menu_8c_acc0162b563078c45c3e5c07c18eee60e}\label{lcd__menu_8c_acc0162b563078c45c3e5c07c18eee60e}} 
+\index{lcd\_menu.c@{lcd\_menu.c}!menu\_010@{menu\_010}}
+\index{menu\_010@{menu\_010}!lcd\_menu.c@{lcd\_menu.c}}
+\subsubsection{\texorpdfstring{menu\_010}{menu\_010}}
+{\footnotesize\ttfamily const char menu\+\_\+010\mbox{[}$\,$\mbox{]} = \char`\"{} \mbox{[}Sub Menu\mbox{]}\char`\"{}}
+
+\mbox{\Hypertarget{lcd__menu_8c_acbbbb3c1188871fecb6b1cdbe9dd1c53}\label{lcd__menu_8c_acbbbb3c1188871fecb6b1cdbe9dd1c53}} 
+\index{lcd\_menu.c@{lcd\_menu.c}!menu\_011@{menu\_011}}
+\index{menu\_011@{menu\_011}!lcd\_menu.c@{lcd\_menu.c}}
+\subsubsection{\texorpdfstring{menu\_011}{menu\_011}}
+{\footnotesize\ttfamily const char menu\+\_\+011\mbox{[}$\,$\mbox{]} = \char`\"{} Sub\+Option1\char`\"{}}
+
+\mbox{\Hypertarget{lcd__menu_8c_a9c6d84c1f5d24b54c4e3d8d7243c7d1e}\label{lcd__menu_8c_a9c6d84c1f5d24b54c4e3d8d7243c7d1e}} 
+\index{lcd\_menu.c@{lcd\_menu.c}!menu\_012@{menu\_012}}
+\index{menu\_012@{menu\_012}!lcd\_menu.c@{lcd\_menu.c}}
+\subsubsection{\texorpdfstring{menu\_012}{menu\_012}}
+{\footnotesize\ttfamily const char menu\+\_\+012\mbox{[}$\,$\mbox{]} = \char`\"{} Sub\+Option2\char`\"{}}
+
+\mbox{\Hypertarget{lcd__menu_8c_a1eb7807058925f6e433402aaeaf68a2e}\label{lcd__menu_8c_a1eb7807058925f6e433402aaeaf68a2e}} 
+\index{lcd\_menu.c@{lcd\_menu.c}!menu\_013@{menu\_013}}
+\index{menu\_013@{menu\_013}!lcd\_menu.c@{lcd\_menu.c}}
+\subsubsection{\texorpdfstring{menu\_013}{menu\_013}}
+{\footnotesize\ttfamily const char menu\+\_\+013\mbox{[}$\,$\mbox{]} = \char`\"{} Sub\+Option3\char`\"{}}
+
+\mbox{\Hypertarget{lcd__menu_8c_a40e5b3ca6c0ff44725f263fd48b7b3d9}\label{lcd__menu_8c_a40e5b3ca6c0ff44725f263fd48b7b3d9}} 
+\index{lcd\_menu.c@{lcd\_menu.c}!menu\_014@{menu\_014}}
+\index{menu\_014@{menu\_014}!lcd\_menu.c@{lcd\_menu.c}}
+\subsubsection{\texorpdfstring{menu\_014}{menu\_014}}
+{\footnotesize\ttfamily const char menu\+\_\+014\mbox{[}$\,$\mbox{]} = \char`\"{} Sub\+Option4\char`\"{}}
+
+\mbox{\Hypertarget{lcd__menu_8c_afd8983259c42e4f428481593320dffba}\label{lcd__menu_8c_afd8983259c42e4f428481593320dffba}} 
+\index{lcd\_menu.c@{lcd\_menu.c}!menu\_015@{menu\_015}}
+\index{menu\_015@{menu\_015}!lcd\_menu.c@{lcd\_menu.c}}
+\subsubsection{\texorpdfstring{menu\_015}{menu\_015}}
+{\footnotesize\ttfamily const char menu\+\_\+015\mbox{[}$\,$\mbox{]} = \char`\"{} Sub\+Option5\char`\"{}}
+
+\mbox{\Hypertarget{lcd__menu_8c_a49732f542265f34400cf800a60889fee}\label{lcd__menu_8c_a49732f542265f34400cf800a60889fee}} 
+\index{lcd\_menu.c@{lcd\_menu.c}!menu\_016@{menu\_016}}
+\index{menu\_016@{menu\_016}!lcd\_menu.c@{lcd\_menu.c}}
+\subsubsection{\texorpdfstring{menu\_016}{menu\_016}}
+{\footnotesize\ttfamily const char menu\+\_\+016\mbox{[}$\,$\mbox{]} = \char`\"{} R\+E\+T\+U\+RN\char`\"{}}
+
+\mbox{\Hypertarget{lcd__menu_8c_adb967101fc7f610424156c31fc5d09dd}\label{lcd__menu_8c_adb967101fc7f610424156c31fc5d09dd}} 
+\index{lcd\_menu.c@{lcd\_menu.c}!my\_menu@{my\_menu}}
+\index{my\_menu@{my\_menu}!lcd\_menu.c@{lcd\_menu.c}}
+\subsubsection{\texorpdfstring{my\_menu}{my\_menu}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lcd__menu_8h_acf567e8cfba6ea42ed54a7bfc6aee6de}{Menu\+Entry}} my\+\_\+menu\mbox{[}$\,$\mbox{]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= }
+\DoxyCodeLine{\{}
+\DoxyCodeLine{    \{\mbox{\hyperlink{lcd__menu_8c_a6a53e2d9ae50c77c2ffc5c711b111dba}{menu\_000}}, 10, 0, 0, 0,  0\},}
+\DoxyCodeLine{    \{\mbox{\hyperlink{lcd__menu_8c_ac4435409364862d3cae93980d752ecf0}{menu\_001}}, 10, 1, 2, 1,  0\},}
+\DoxyCodeLine{    \{\mbox{\hyperlink{lcd__menu_8c_a055f916590b9b0f42617797a82b4ced8}{menu\_002}}, 10, 1, 3, 11, 0\},}
+\DoxyCodeLine{    \{\mbox{\hyperlink{lcd__menu_8c_a5acf0e7f06a780172bd4e4c4274759ed}{menu\_003}}, 10, 2, 4, 3,  0\},}
+\DoxyCodeLine{    \{\mbox{\hyperlink{lcd__menu_8c_a5362e497f10a38f578806f7e8d06918e}{menu\_004}}, 10, 3, 5, 4,  0\},}
+\DoxyCodeLine{    \{\mbox{\hyperlink{lcd__menu_8c_a048351703a605a3776ba4b95e08a7823}{menu\_005}}, 10, 4, 6, 5,  0\},}
+\DoxyCodeLine{    \{\mbox{\hyperlink{lcd__menu_8c_aec4fc6e37914c3c367f5f04ad552ca46}{menu\_006}}, 10, 5, 7, 6,  0\},}
+\DoxyCodeLine{    \{\mbox{\hyperlink{lcd__menu_8c_ae2b122d5852dedea1b45e5daa0adf4cb}{menu\_007}}, 10, 6, 8, 7,  0\},}
+\DoxyCodeLine{    \{\mbox{\hyperlink{lcd__menu_8c_a9fc9c94885d4ca58b6365859ab26b9f8}{menu\_008}}, 10, 7, 9, 8,  0\},}
+\DoxyCodeLine{    \{\mbox{\hyperlink{lcd__menu_8c_a6111d9686142106c91b578be38a1d2ba}{menu\_009}}, 10, 8, 9, 9,  \mbox{\hyperlink{lcd__menu_8h_aedc96a40e844bc2efc8bbef1b0782702}{start}}\},}
+\DoxyCodeLine{    }
+\DoxyCodeLine{    \{\mbox{\hyperlink{lcd__menu_8c_acc0162b563078c45c3e5c07c18eee60e}{menu\_010}}, 7, 0,  0,  0,  0\},}
+\DoxyCodeLine{    \{\mbox{\hyperlink{lcd__menu_8c_acbbbb3c1188871fecb6b1cdbe9dd1c53}{menu\_011}}, 7, 1,  12, 11, 0\},}
+\DoxyCodeLine{    \{\mbox{\hyperlink{lcd__menu_8c_a9c6d84c1f5d24b54c4e3d8d7243c7d1e}{menu\_012}}, 7, 11, 13, 12, 0\},}
+\DoxyCodeLine{    \{\mbox{\hyperlink{lcd__menu_8c_a1eb7807058925f6e433402aaeaf68a2e}{menu\_013}}, 7, 12, 14, 13, 0\},}
+\DoxyCodeLine{    \{\mbox{\hyperlink{lcd__menu_8c_a40e5b3ca6c0ff44725f263fd48b7b3d9}{menu\_014}}, 7, 13, 15, 14, 0\},}
+\DoxyCodeLine{    \{\mbox{\hyperlink{lcd__menu_8c_afd8983259c42e4f428481593320dffba}{menu\_015}}, 7, 14, 16, 15, 0\},}
+\DoxyCodeLine{    \{\mbox{\hyperlink{lcd__menu_8c_a49732f542265f34400cf800a60889fee}{menu\_016}}, 7, 15, 16, 1,  0\},         }
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{lcd__menu_8c_a4c0237fdbba78af703ee275cc492a8b1}\label{lcd__menu_8c_a4c0237fdbba78af703ee275cc492a8b1}} 
+\index{lcd\_menu.c@{lcd\_menu.c}!selected@{selected}}
+\index{selected@{selected}!lcd\_menu.c@{lcd\_menu.c}}
+\subsubsection{\texorpdfstring{selected}{selected}}
+{\footnotesize\ttfamily unsigned char selected = 1}
+

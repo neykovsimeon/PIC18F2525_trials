@@ -1,0 +1,506 @@
+\begin{theindex}
+
+  \item {\_XTAL\_FREQ}
+    \subitem {lcd\_menu.h}, \hyperpage{15}
+
+  \indexspace
+
+  \item {ADC\_user\_functions.h}
+    \subitem {init\_ADC}, \hyperpage{7}
+    \subitem {init\_dac\_SPI}, \hyperpage{7}
+    \subitem {init\_dig\_pot\_SPI}, \hyperpage{7}
+    \subitem {send\_backlight\_spi}, \hyperpage{8}
+    \subitem {send\_contrast\_spi}, \hyperpage{8}
+    \subitem {send\_dac\_i\_spi}, \hyperpage{8}
+    \subitem {send\_dac\_u\_spi}, \hyperpage{8}
+
+  \indexspace
+
+  \item {BLINK\_OFF}
+    \subitem {xlcd.h}, \hyperpage{29}
+  \item {BLINK\_ON}
+    \subitem {xlcd.h}, \hyperpage{29}
+  \item {BusyXLCD}
+    \subitem {busyxlcd.c}, \hyperpage{8}
+    \subitem {xlcd.h}, \hyperpage{33}
+  \item {busyxlcd.c}
+    \subitem {BusyXLCD}, \hyperpage{8}
+  \item {button\_delay\_counter}
+    \subitem {lcd\_trials\_4bits.c}, \hyperpage{21}
+  \item {button\_delay\_counter\_enable}
+    \subitem {lcd\_trials\_4bits.c}, \hyperpage{22}
+  \item {button\_enable}
+    \subitem {lcd\_trials\_4bits.c}, \hyperpage{22}
+
+  \indexspace
+
+  \item {clear\_display}
+    \subitem {lcd\_menu.c}, \hyperpage{10}
+    \subitem {lcd\_menu.h}, \hyperpage{17}
+    \subitem {LCD\_user\_functions.h}, \hyperpage{23}
+  \item {CURSOR\_OFF}
+    \subitem {xlcd.h}, \hyperpage{29}
+  \item {CURSOR\_ON}
+    \subitem {xlcd.h}, \hyperpage{30}
+
+  \indexspace
+
+  \item {D:/Projects/pic18f2525/LCD\_trials/lcd\_mcu\_menu.X/ADC\_user\_functions.h}, 
+		\hyperpage{7}
+  \item {D:/Projects/pic18f2525/LCD\_trials/lcd\_mcu\_menu.X/busyxlcd.c}, 
+		\hyperpage{8}
+  \item {D:/Projects/pic18f2525/LCD\_trials/lcd\_mcu\_menu.X/lcd\_menu.c}, 
+		\hyperpage{9}
+  \item {D:/Projects/pic18f2525/LCD\_trials/lcd\_mcu\_menu.X/lcd\_menu.h}, 
+		\hyperpage{14}
+  \item {D:/Projects/pic18f2525/LCD\_trials/lcd\_mcu\_menu.X/lcd\_trials\_4bits.c}, 
+		\hyperpage{20}
+  \item {D:/Projects/pic18f2525/LCD\_trials/lcd\_mcu\_menu.X/lcd\_trials\_4bits.h}, 
+		\hyperpage{22}
+  \item {D:/Projects/pic18f2525/LCD\_trials/lcd\_mcu\_menu.X/LCD\_user\_functions.h}, 
+		\hyperpage{22}
+  \item {D:/Projects/pic18f2525/LCD\_trials/lcd\_mcu\_menu.X/openxlcd.c}, 
+		\hyperpage{24}
+  \item {D:/Projects/pic18f2525/LCD\_trials/lcd\_mcu\_menu.X/putrxlcd.c}, 
+		\hyperpage{24}
+  \item {D:/Projects/pic18f2525/LCD\_trials/lcd\_mcu\_menu.X/putsxlcd.c}, 
+		\hyperpage{25}
+  \item {D:/Projects/pic18f2525/LCD\_trials/lcd\_mcu\_menu.X/readaddr.c}, 
+		\hyperpage{25}
+  \item {D:/Projects/pic18f2525/LCD\_trials/lcd\_mcu\_menu.X/readdata.c}, 
+		\hyperpage{26}
+  \item {D:/Projects/pic18f2525/LCD\_trials/lcd\_mcu\_menu.X/setcgram.c}, 
+		\hyperpage{26}
+  \item {D:/Projects/pic18f2525/LCD\_trials/lcd\_mcu\_menu.X/setddram.c}, 
+		\hyperpage{27}
+  \item {D:/Projects/pic18f2525/LCD\_trials/lcd\_mcu\_menu.X/wcmdxlcd.c}, 
+		\hyperpage{27}
+  \item {D:/Projects/pic18f2525/LCD\_trials/lcd\_mcu\_menu.X/writdata.c}, 
+		\hyperpage{28}
+  \item {D:/Projects/pic18f2525/LCD\_trials/lcd\_mcu\_menu.X/xlcd.h}, 
+		\hyperpage{28}
+  \item {DATA\_PORT}
+    \subitem {xlcd.h}, \hyperpage{30}
+  \item {Delay1Sec}
+    \subitem {lcd\_menu.c}, \hyperpage{10}
+    \subitem {lcd\_menu.h}, \hyperpage{17}
+    \subitem {LCD\_user\_functions.h}, \hyperpage{23}
+  \item {Delay200ms}
+    \subitem {lcd\_menu.c}, \hyperpage{10}
+    \subitem {lcd\_menu.h}, \hyperpage{18}
+    \subitem {LCD\_user\_functions.h}, \hyperpage{23}
+  \item {DelayFor18TCY}
+    \subitem {lcd\_menu.c}, \hyperpage{10}
+    \subitem {lcd\_menu.h}, \hyperpage{18}
+    \subitem {LCD\_user\_functions.h}, \hyperpage{23}
+    \subitem {xlcd.h}, \hyperpage{33}
+  \item {DelayHalfSec}
+    \subitem {lcd\_menu.c}, \hyperpage{10}
+    \subitem {lcd\_menu.h}, \hyperpage{18}
+    \subitem {LCD\_user\_functions.h}, \hyperpage{23}
+  \item {DelayPORXLCD}
+    \subitem {lcd\_menu.c}, \hyperpage{10}
+    \subitem {lcd\_menu.h}, \hyperpage{18}
+    \subitem {LCD\_user\_functions.h}, \hyperpage{23}
+    \subitem {xlcd.h}, \hyperpage{33}
+  \item {DelayXLCD}
+    \subitem {lcd\_menu.c}, \hyperpage{10}
+    \subitem {lcd\_menu.h}, \hyperpage{18}
+    \subitem {LCD\_user\_functions.h}, \hyperpage{23}
+    \subitem {xlcd.h}, \hyperpage{34}
+  \item {DISPLAY\_16x4}
+    \subitem {lcd\_menu.h}, \hyperpage{15}
+  \item {DISPLAY\_ROWS}
+    \subitem {lcd\_menu.h}, \hyperpage{15}
+  \item {DISPLAY\_SET\_DOWN}
+    \subitem {lcd\_trials\_4bits.c}, \hyperpage{20}
+  \item {DISPLAY\_SET\_MODE\_SELECT}
+    \subitem {lcd\_trials\_4bits.c}, \hyperpage{20}
+  \item {DISPLAY\_SET\_UP}
+    \subitem {lcd\_trials\_4bits.c}, \hyperpage{21}
+  \item {DOFF}
+    \subitem {xlcd.h}, \hyperpage{30}
+  \item {DON}
+    \subitem {xlcd.h}, \hyperpage{30}
+  \item {down}
+    \subitem {MenuStructure}, \hyperpage{5}
+
+  \indexspace
+
+  \item {E\_PIN}
+    \subitem {xlcd.h}, \hyperpage{31}
+  \item {EIGHT\_BIT}
+    \subitem {xlcd.h}, \hyperpage{31}
+  \item {enter}
+    \subitem {MenuStructure}, \hyperpage{5}
+
+  \indexspace
+
+  \item {FALSE}
+    \subitem {lcd\_menu.h}, \hyperpage{16}
+  \item {FOUR\_BIT}
+    \subitem {xlcd.h}, \hyperpage{31}
+  \item {fp}
+    \subitem {MenuStructure}, \hyperpage{5}
+
+  \indexspace
+
+  \item {gotoxy}
+    \subitem {lcd\_menu.c}, \hyperpage{11}
+    \subitem {lcd\_menu.h}, \hyperpage{18}
+
+  \indexspace
+
+  \item {init\_ADC}
+    \subitem {ADC\_user\_functions.h}, \hyperpage{7}
+  \item {init\_dac\_SPI}
+    \subitem {ADC\_user\_functions.h}, \hyperpage{7}
+  \item {init\_dig\_pot\_SPI}
+    \subitem {ADC\_user\_functions.h}, \hyperpage{7}
+  \item {init\_GPIO\_DIR}
+    \subitem {lcd\_trials\_4bits.c}, \hyperpage{21}
+    \subitem {LCD\_user\_functions.h}, \hyperpage{24}
+  \item {init\_XLCD}
+    \subitem {lcd\_trials\_4bits.c}, \hyperpage{21}
+    \subitem {LCD\_user\_functions.h}, \hyperpage{24}
+  \item {INITIAL\_MAXX}
+    \subitem {lcd\_menu.h}, \hyperpage{16}
+  \item {INITIAL\_MAXY}
+    \subitem {lcd\_menu.h}, \hyperpage{16}
+
+  \indexspace
+
+  \item {lcd\_menu.c}
+    \subitem {clear\_display}, \hyperpage{10}
+    \subitem {Delay1Sec}, \hyperpage{10}
+    \subitem {Delay200ms}, \hyperpage{10}
+    \subitem {DelayFor18TCY}, \hyperpage{10}
+    \subitem {DelayHalfSec}, \hyperpage{10}
+    \subitem {DelayPORXLCD}, \hyperpage{10}
+    \subitem {DelayXLCD}, \hyperpage{10}
+    \subitem {gotoxy}, \hyperpage{11}
+    \subitem {LCDWriteCmd}, \hyperpage{11}
+    \subitem {LCDWriteStringROM}, \hyperpage{11}
+    \subitem {menu\_000}, \hyperpage{11}
+    \subitem {menu\_001}, \hyperpage{12}
+    \subitem {menu\_002}, \hyperpage{12}
+    \subitem {menu\_003}, \hyperpage{12}
+    \subitem {menu\_004}, \hyperpage{12}
+    \subitem {menu\_005}, \hyperpage{12}
+    \subitem {menu\_006}, \hyperpage{12}
+    \subitem {menu\_007}, \hyperpage{12}
+    \subitem {menu\_008}, \hyperpage{12}
+    \subitem {menu\_009}, \hyperpage{13}
+    \subitem {menu\_010}, \hyperpage{13}
+    \subitem {menu\_011}, \hyperpage{13}
+    \subitem {menu\_012}, \hyperpage{13}
+    \subitem {menu\_013}, \hyperpage{13}
+    \subitem {menu\_014}, \hyperpage{13}
+    \subitem {menu\_015}, \hyperpage{13}
+    \subitem {menu\_016}, \hyperpage{13}
+    \subitem {my\_menu}, \hyperpage{14}
+    \subitem {selected}, \hyperpage{14}
+    \subitem {show\_menu}, \hyperpage{11}
+  \item {lcd\_menu.h}
+    \subitem {\_XTAL\_FREQ}, \hyperpage{15}
+    \subitem {clear\_display}, \hyperpage{17}
+    \subitem {Delay1Sec}, \hyperpage{17}
+    \subitem {Delay200ms}, \hyperpage{18}
+    \subitem {DelayFor18TCY}, \hyperpage{18}
+    \subitem {DelayHalfSec}, \hyperpage{18}
+    \subitem {DelayPORXLCD}, \hyperpage{18}
+    \subitem {DelayXLCD}, \hyperpage{18}
+    \subitem {DISPLAY\_16x4}, \hyperpage{15}
+    \subitem {DISPLAY\_ROWS}, \hyperpage{15}
+    \subitem {FALSE}, \hyperpage{16}
+    \subitem {gotoxy}, \hyperpage{18}
+    \subitem {INITIAL\_MAXX}, \hyperpage{16}
+    \subitem {INITIAL\_MAXY}, \hyperpage{16}
+    \subitem {LCDWriteCmd}, \hyperpage{18}
+    \subitem {LCDWriteStringROM}, \hyperpage{19}
+    \subitem {LOWER\_SPACE}, \hyperpage{16}
+    \subitem {MenuEntry}, \hyperpage{17}
+    \subitem {my\_menu}, \hyperpage{19}
+    \subitem {selected}, \hyperpage{19}
+    \subitem {SELECTION\_CHAR}, \hyperpage{16}
+    \subitem {SELECTION\_CHAR\_END}, \hyperpage{16}
+    \subitem {show\_menu}, \hyperpage{19}
+    \subitem {start}, \hyperpage{19}
+    \subitem {START\_ROW3}, \hyperpage{16}
+    \subitem {START\_ROW4}, \hyperpage{16}
+    \subitem {TRUE}, \hyperpage{17}
+    \subitem {UPPER\_SPACE}, \hyperpage{17}
+    \subitem {VISIBLE\_MENU\_HEADER}, \hyperpage{17}
+  \item {lcd\_trials\_4bits.c}
+    \subitem {button\_delay\_counter}, \hyperpage{21}
+    \subitem {button\_delay\_counter\_enable}, \hyperpage{22}
+    \subitem {button\_enable}, \hyperpage{22}
+    \subitem {DISPLAY\_SET\_DOWN}, \hyperpage{20}
+    \subitem {DISPLAY\_SET\_MODE\_SELECT}, \hyperpage{20}
+    \subitem {DISPLAY\_SET\_UP}, \hyperpage{21}
+    \subitem {init\_GPIO\_DIR}, \hyperpage{21}
+    \subitem {init\_XLCD}, \hyperpage{21}
+    \subitem {main}, \hyperpage{21}
+    \subitem {return\_default\_display\_counter}, \hyperpage{22}
+    \subitem {return\_default\_display\_counter\_enable}, 
+		\hyperpage{22}
+    \subitem {start}, \hyperpage{21}
+  \item {LCD\_user\_functions.h}
+    \subitem {clear\_display}, \hyperpage{23}
+    \subitem {Delay1Sec}, \hyperpage{23}
+    \subitem {Delay200ms}, \hyperpage{23}
+    \subitem {DelayFor18TCY}, \hyperpage{23}
+    \subitem {DelayHalfSec}, \hyperpage{23}
+    \subitem {DelayPORXLCD}, \hyperpage{23}
+    \subitem {DelayXLCD}, \hyperpage{23}
+    \subitem {init\_GPIO\_DIR}, \hyperpage{24}
+    \subitem {init\_XLCD}, \hyperpage{24}
+  \item {LCDWriteCmd}
+    \subitem {lcd\_menu.c}, \hyperpage{11}
+    \subitem {lcd\_menu.h}, \hyperpage{18}
+  \item {LCDWriteStringROM}
+    \subitem {lcd\_menu.c}, \hyperpage{11}
+    \subitem {lcd\_menu.h}, \hyperpage{19}
+  \item {LINE\_5X10}
+    \subitem {xlcd.h}, \hyperpage{31}
+  \item {LINE\_5X7}
+    \subitem {xlcd.h}, \hyperpage{31}
+  \item {LINES\_5X7}
+    \subitem {xlcd.h}, \hyperpage{31}
+  \item {LOWER\_SPACE}
+    \subitem {lcd\_menu.h}, \hyperpage{16}
+
+  \indexspace
+
+  \item {main}
+    \subitem {lcd\_trials\_4bits.c}, \hyperpage{21}
+  \item {MEM\_MODEL}
+    \subitem {xlcd.h}, \hyperpage{31}
+  \item {menu\_000}
+    \subitem {lcd\_menu.c}, \hyperpage{11}
+  \item {menu\_001}
+    \subitem {lcd\_menu.c}, \hyperpage{12}
+  \item {menu\_002}
+    \subitem {lcd\_menu.c}, \hyperpage{12}
+  \item {menu\_003}
+    \subitem {lcd\_menu.c}, \hyperpage{12}
+  \item {menu\_004}
+    \subitem {lcd\_menu.c}, \hyperpage{12}
+  \item {menu\_005}
+    \subitem {lcd\_menu.c}, \hyperpage{12}
+  \item {menu\_006}
+    \subitem {lcd\_menu.c}, \hyperpage{12}
+  \item {menu\_007}
+    \subitem {lcd\_menu.c}, \hyperpage{12}
+  \item {menu\_008}
+    \subitem {lcd\_menu.c}, \hyperpage{12}
+  \item {menu\_009}
+    \subitem {lcd\_menu.c}, \hyperpage{13}
+  \item {menu\_010}
+    \subitem {lcd\_menu.c}, \hyperpage{13}
+  \item {menu\_011}
+    \subitem {lcd\_menu.c}, \hyperpage{13}
+  \item {menu\_012}
+    \subitem {lcd\_menu.c}, \hyperpage{13}
+  \item {menu\_013}
+    \subitem {lcd\_menu.c}, \hyperpage{13}
+  \item {menu\_014}
+    \subitem {lcd\_menu.c}, \hyperpage{13}
+  \item {menu\_015}
+    \subitem {lcd\_menu.c}, \hyperpage{13}
+  \item {menu\_016}
+    \subitem {lcd\_menu.c}, \hyperpage{13}
+  \item {MenuEntry}
+    \subitem {lcd\_menu.h}, \hyperpage{17}
+  \item {MenuStructure}, \hyperpage{5}
+    \subitem {down}, \hyperpage{5}
+    \subitem {enter}, \hyperpage{5}
+    \subitem {fp}, \hyperpage{5}
+    \subitem {num\_menupoints}, \hyperpage{6}
+    \subitem {text}, \hyperpage{6}
+    \subitem {up}, \hyperpage{6}
+  \item {my\_menu}
+    \subitem {lcd\_menu.c}, \hyperpage{14}
+    \subitem {lcd\_menu.h}, \hyperpage{19}
+
+  \indexspace
+
+  \item {num\_menupoints}
+    \subitem {MenuStructure}, \hyperpage{6}
+
+  \indexspace
+
+  \item {OpenXLCD}
+    \subitem {openxlcd.c}, \hyperpage{24}
+    \subitem {xlcd.h}, \hyperpage{34}
+  \item {openxlcd.c}
+    \subitem {OpenXLCD}, \hyperpage{24}
+
+  \indexspace
+
+  \item {PARAM\_SCLASS}
+    \subitem {xlcd.h}, \hyperpage{31}
+  \item {putcXLCD}
+    \subitem {xlcd.h}, \hyperpage{32}
+  \item {putrsXLCD}
+    \subitem {putrxlcd.c}, \hyperpage{25}
+    \subitem {xlcd.h}, \hyperpage{34}
+  \item {putrxlcd.c}
+    \subitem {putrsXLCD}, \hyperpage{25}
+  \item {putsXLCD}
+    \subitem {putsxlcd.c}, \hyperpage{25}
+    \subitem {xlcd.h}, \hyperpage{34}
+  \item {putsxlcd.c}
+    \subitem {putsXLCD}, \hyperpage{25}
+
+  \indexspace
+
+  \item {readaddr.c}
+    \subitem {ReadAddrXLCD}, \hyperpage{26}
+  \item {ReadAddrXLCD}
+    \subitem {readaddr.c}, \hyperpage{26}
+    \subitem {xlcd.h}, \hyperpage{34}
+  \item {readdata.c}
+    \subitem {ReadDataXLCD}, \hyperpage{26}
+  \item {ReadDataXLCD}
+    \subitem {readdata.c}, \hyperpage{26}
+    \subitem {xlcd.h}, \hyperpage{34}
+  \item {return\_default\_display\_counter}
+    \subitem {lcd\_trials\_4bits.c}, \hyperpage{22}
+  \item {return\_default\_display\_counter\_enable}
+    \subitem {lcd\_trials\_4bits.c}, \hyperpage{22}
+  \item {RS\_PIN}
+    \subitem {xlcd.h}, \hyperpage{32}
+  \item {RW\_PIN}
+    \subitem {xlcd.h}, \hyperpage{32}
+
+  \indexspace
+
+  \item {selected}
+    \subitem {lcd\_menu.c}, \hyperpage{14}
+    \subitem {lcd\_menu.h}, \hyperpage{19}
+  \item {SELECTION\_CHAR}
+    \subitem {lcd\_menu.h}, \hyperpage{16}
+  \item {SELECTION\_CHAR\_END}
+    \subitem {lcd\_menu.h}, \hyperpage{16}
+  \item {send\_backlight\_spi}
+    \subitem {ADC\_user\_functions.h}, \hyperpage{8}
+  \item {send\_contrast\_spi}
+    \subitem {ADC\_user\_functions.h}, \hyperpage{8}
+  \item {send\_dac\_i\_spi}
+    \subitem {ADC\_user\_functions.h}, \hyperpage{8}
+  \item {send\_dac\_u\_spi}
+    \subitem {ADC\_user\_functions.h}, \hyperpage{8}
+  \item {setcgram.c}
+    \subitem {SetCGRamAddr}, \hyperpage{27}
+  \item {SetCGRamAddr}
+    \subitem {setcgram.c}, \hyperpage{27}
+    \subitem {xlcd.h}, \hyperpage{34}
+  \item {setddram.c}
+    \subitem {SetDDRamAddr}, \hyperpage{27}
+  \item {SetDDRamAddr}
+    \subitem {setddram.c}, \hyperpage{27}
+    \subitem {xlcd.h}, \hyperpage{35}
+  \item {SHIFT\_CUR\_LEFT}
+    \subitem {xlcd.h}, \hyperpage{32}
+  \item {SHIFT\_CUR\_RIGHT}
+    \subitem {xlcd.h}, \hyperpage{32}
+  \item {SHIFT\_DISP\_LEFT}
+    \subitem {xlcd.h}, \hyperpage{32}
+  \item {SHIFT\_DISP\_RIGHT}
+    \subitem {xlcd.h}, \hyperpage{32}
+  \item {show\_menu}
+    \subitem {lcd\_menu.c}, \hyperpage{11}
+    \subitem {lcd\_menu.h}, \hyperpage{19}
+  \item {start}
+    \subitem {lcd\_menu.h}, \hyperpage{19}
+    \subitem {lcd\_trials\_4bits.c}, \hyperpage{21}
+  \item {START\_ROW3}
+    \subitem {lcd\_menu.h}, \hyperpage{16}
+  \item {START\_ROW4}
+    \subitem {lcd\_menu.h}, \hyperpage{16}
+
+  \indexspace
+
+  \item {text}
+    \subitem {MenuStructure}, \hyperpage{6}
+  \item {TRIS\_DATA\_PORT}
+    \subitem {xlcd.h}, \hyperpage{33}
+  \item {TRIS\_E}
+    \subitem {xlcd.h}, \hyperpage{33}
+  \item {TRIS\_RS}
+    \subitem {xlcd.h}, \hyperpage{33}
+  \item {TRIS\_RW}
+    \subitem {xlcd.h}, \hyperpage{33}
+  \item {TRUE}
+    \subitem {lcd\_menu.h}, \hyperpage{17}
+
+  \indexspace
+
+  \item {up}
+    \subitem {MenuStructure}, \hyperpage{6}
+  \item {UPPER\_SPACE}
+    \subitem {lcd\_menu.h}, \hyperpage{17}
+
+  \indexspace
+
+  \item {VISIBLE\_MENU\_HEADER}
+    \subitem {lcd\_menu.h}, \hyperpage{17}
+
+  \indexspace
+
+  \item {wcmdxlcd.c}
+    \subitem {WriteCmdXLCD}, \hyperpage{27}
+  \item {writdata.c}
+    \subitem {WriteDataXLCD}, \hyperpage{28}
+  \item {WriteCmdXLCD}
+    \subitem {wcmdxlcd.c}, \hyperpage{27}
+    \subitem {xlcd.h}, \hyperpage{35}
+  \item {WriteDataXLCD}
+    \subitem {writdata.c}, \hyperpage{28}
+    \subitem {xlcd.h}, \hyperpage{35}
+
+  \indexspace
+
+  \item {xlcd.h}
+    \subitem {BLINK\_OFF}, \hyperpage{29}
+    \subitem {BLINK\_ON}, \hyperpage{29}
+    \subitem {BusyXLCD}, \hyperpage{33}
+    \subitem {CURSOR\_OFF}, \hyperpage{29}
+    \subitem {CURSOR\_ON}, \hyperpage{30}
+    \subitem {DATA\_PORT}, \hyperpage{30}
+    \subitem {DelayFor18TCY}, \hyperpage{33}
+    \subitem {DelayPORXLCD}, \hyperpage{33}
+    \subitem {DelayXLCD}, \hyperpage{34}
+    \subitem {DOFF}, \hyperpage{30}
+    \subitem {DON}, \hyperpage{30}
+    \subitem {E\_PIN}, \hyperpage{31}
+    \subitem {EIGHT\_BIT}, \hyperpage{31}
+    \subitem {FOUR\_BIT}, \hyperpage{31}
+    \subitem {LINE\_5X10}, \hyperpage{31}
+    \subitem {LINE\_5X7}, \hyperpage{31}
+    \subitem {LINES\_5X7}, \hyperpage{31}
+    \subitem {MEM\_MODEL}, \hyperpage{31}
+    \subitem {OpenXLCD}, \hyperpage{34}
+    \subitem {PARAM\_SCLASS}, \hyperpage{31}
+    \subitem {putcXLCD}, \hyperpage{32}
+    \subitem {putrsXLCD}, \hyperpage{34}
+    \subitem {putsXLCD}, \hyperpage{34}
+    \subitem {ReadAddrXLCD}, \hyperpage{34}
+    \subitem {ReadDataXLCD}, \hyperpage{34}
+    \subitem {RS\_PIN}, \hyperpage{32}
+    \subitem {RW\_PIN}, \hyperpage{32}
+    \subitem {SetCGRamAddr}, \hyperpage{34}
+    \subitem {SetDDRamAddr}, \hyperpage{35}
+    \subitem {SHIFT\_CUR\_LEFT}, \hyperpage{32}
+    \subitem {SHIFT\_CUR\_RIGHT}, \hyperpage{32}
+    \subitem {SHIFT\_DISP\_LEFT}, \hyperpage{32}
+    \subitem {SHIFT\_DISP\_RIGHT}, \hyperpage{32}
+    \subitem {TRIS\_DATA\_PORT}, \hyperpage{33}
+    \subitem {TRIS\_E}, \hyperpage{33}
+    \subitem {TRIS\_RS}, \hyperpage{33}
+    \subitem {TRIS\_RW}, \hyperpage{33}
+    \subitem {WriteCmdXLCD}, \hyperpage{35}
+    \subitem {WriteDataXLCD}, \hyperpage{35}
+
+\end{theindex}
