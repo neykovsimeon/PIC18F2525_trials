@@ -17,5 +17,8 @@
 
  - Very helpful "Getting started" tutorial for MPLAB X IDE and XC8:
  [Refrence - YouTube channel StudentCompanion](https://www.youtube.com/watch?v=mUofSucHx_E&list=PL3lfkED2i6JcJH-OETxsI43e8M-7eLeL-)
+ 
+ - Very useful tutorial for microcontrollers lcd menu
+ [Reference - YouTube channel projectsHigaski, LCD menu tutorial for microcontrollers](https://www.youtube.com/watch?v=PFzNBtnfJ6Y&list=PLfGDzGG5F5eYNBkXs0tTdXqLB3KE5CFgx) 
 
 > use of Universal Programmer MiniPro TL866A. Fuses config comes directly with hex file as per #pragma config statements in respective header file
